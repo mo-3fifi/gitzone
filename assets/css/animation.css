@@ -1,0 +1,19 @@
+@-webkit-keyframes slideOutLeft {
+  from {
+    margin-left: 0;
+  }
+
+  to {
+    margin-left: -100%;
+  }
+}
+
+@keyframes slideOutLeft {
+  from {
+    margin-left: 0;
+  }
+
+  to {
+    margin-left: -100%;
+  }
+}

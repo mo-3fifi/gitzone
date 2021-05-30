@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<!-- fill language attributes -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>GitZone</title>
+    <!-- STYLE -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/css/bootstrap.front_en.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lateef" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/animation.css" />
+    <link rel="stylesheet" href="assets/css/gitzone.css" />
+    <!-- / STYLE -->
+  </head>
+  <body>
+    <!-- SECTION HEADER -->
+    <header>
+      <section class="layout">
+        <section class="section theme-solid" id="section--top-bar">
+          <section class="section__container">
+            <section class="box">
+              <div class="component--top-bar-items">
+                <div class="top-bar__item">
+                  <div class="component--select" select-component>
+                    <div class="select__icon"><i class="fas fa-globe-africa"></i></div>
+                    <div class="select__label" select-switcher>English</div>
+                    <div class="select__options">
+                      <div class="select__option" select-option="1">English</div>
+                      <div class="select__option" select-option="2">العربية</div>
+                    </div>
+                    <!-- <input type="hidden" select-value value=""> -->
+                    <select name="langauge" select-value>
+                      <option value="1"></option>
+                      <option value="2"></option>
+                    </select>
+                  </div>
+                </div>
+                <div class="top-bar__item">
+                  USD
+                </div>
+                <div class="top-bar__item">
+                  Free shiping for all orders of $ 150
+                </div>
+              </div>
+            </section>
+            <section class="box">
+              <div class="component--top-bar-items">
+                <div class="top-bar__item">
+                  <div class="component--social">
+                    <ul>
+                      <li><a href="#"><div class="social__icon"><i class="fab fa-facebook-f"></i></div></a></li>
+                      <li><a href="#"><div class="social__icon"><i class="fab fa-twitter"></i></div></a></li>
+                      <li><a href="#"><div class="social__icon"><i class="fab fa-google-plus-g"></i></div></a></li>
+                      <li><a href="#"><div class="social__icon"><i class="fab fa-youtube"></i></div></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="top-bar__item">
+                  <a href="login-n-register.html"><div class="inline-icon"><i class="fas fa-user"></i></div> Login / Register</a>
+                </div>
+              </div>
+            </section>
+          </section>
+        </section>
+        <section class="section theme-solid" id="section--header">
+          <section class="section__container">
+            <section class="box">
+              <div class="component--logo">
+                <a href="index.html"><img src="files/images/logo.png" alt=""></a>
+              </div>
+            </section>
+            <section class="box">
+              <div class="component--header-items">
+                <div class="header__item">
+                  <form action="#" class="component--search">
+                    <div class="search__items">
+                      <div class="search__item">
+                        <div class="component--select" select-component>
+                          <div class="select__label" select-switcher>All Categories</div>
+                          <div class="select__options">
+                            <div class="select__option" select-option="1">category 1</div>
+                            <div class="select__option" select-option="2">category 2</div>
+                          </div>
+                          <!-- <input type="hidden" select-value value=""> -->
+                          <select name="category" select-value>
+                            <option value="1"></option>
+                            <option value="2"></option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="search__item">
+                        <input type="text" placeholder="Type here...">
+                      </div>
+                      <div class="search__item">
+                        <button>
+                          <i class="fas fa-search"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="header__item">
+                  <div class="component--notifications">
+                    <div class="notification">
+                      <div class="notification__main">
+                        <a href="#">
+                          <div class="notification__icon"><i class="fas fa-heart"></i></div>
+                          <div class="notification__count">0</div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="notification">
+                      <div class="notification__main">
+                        <a href="#">
+                          <div class="notification__icon"><i class="fas fa-shopping-cart"></i></div>
+                          <div class="notification__count">0</div>
+                        </a>
+                      </div>
+                      <div class="notification__sub">
+                        <div>my cart</div>
+                        <div>total: <span class="notification__description--highlight">$0.00</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+        </section>
+      </section>
+    </header>
+    <!-- / SECTION HEADER -->
+    <!-- SECTION NAV -->
+    <nav>
+      <section class="layout">
+        <section class="section theme-dark" id="section--nav">
+          <section class="section__container">
+            <section class="box">
+              <div class="components--categories-menu">
+                <div class="categories-menu__switch">
+                  <div class="icon__bars">
+                    <div class="icon__bar"></div>
+                    <div class="icon__bar"></div>
+                    <div class="icon__bar"></div>
+                  </div>
+                  <div>
+                    all department
+                  </div>
+                </div>
+                <div class="categories-menu__list">
+                  <div class="categories-menu__element"><a href="#">department 1</a></div>
+                  <div class="categories-menu__element"><a href="#">department 2</a></div>
+                  <div class="categories-menu__element"><a href="#">department 3</a></div>
+                  <div class="categories-menu__element"><a href="#">department 4</a></div>
+                </div>
+              </div>
+            </section>
+            <section class="box">
+              <div class="components--menu">
+                <ul>
+                  <li><a href="#">how it works</a></li>
+                  <li><a href="#">products</a></li>
+                  <li><a href="#">subscribtions</a></li>
+                  <li><a href="#">news</a></li>
+                  <li><a href="contect-us.html">contact us</a></li>
+                  <li><a href="#">help center</a></li>
+                </ul>
+              </div>
+            </section>
+          </section>
+        </section>
+      </section>
+    </nav>
+    <!-- / SECTION NAV -->
+    <!-- SECTION MAIN -->
+    <main>
+      <section class="layout">
+        <section class="section theme-solid">
+          <section class="section__container fluid">
+            <section class="box">
+              <div class="component--cover">
+                <div class="cover__image">
+                  <img src="files/images/inner-page__cover--primary.png" alt="">
+                </div>
+                <div class="cover__title">
+                  product name
+                </div>
+                <div class="cover__breadcrumb">
+                  <a href="#">home</a>
+                  <a href="#">category</a>
+                  <a href="#">product</a>
+                </div>
+              </div>
+            </section>
+          </section>
+        </section>
+        <section class="section theme-solid">
+          <section class="section__container">
+            <section class="box">
+              <div class="component--one-product">
+                <div class="one-product__images">
+                  <div class="component--gallery">
+                    <div class="gallery__main-image">
+                        <img src="" alt="">
+                    </div>
+                    <div class="gallery__images">
+                      <div class="gallery__image">
+                        <img src="files/images/cashu.png" alt="">
+                      </div>
+                      <div class="gallery__image">
+                        <img src="files/images/credit-card.jpeg" alt="">
+                      </div>
+                      <div class="gallery__image">
+                        <img src="files/images/cod.jpg" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="one-product__information">
+                  <div class="one-product__title full">
+                    advanced pack
+                  </div>
+                  <div class="one-product__price">
+                    $33.99 <span class="product__price--old">$50.00</span>
+                  </div>
+                  <div class="one-product__note">
+                    min.quantity: 2 | in stock
+                  </div>
+                  <div class="one-product__rating full">
+                    <div class="rating__stars">
+                      <div class="rating__star"><i class="fas fa-star"></i></div>
+                      <div class="rating__star"><i class="fas fa-star"></i></div>
+                      <div class="rating__star active"><i class="fas fa-star"></i></div>
+                      <div class="rating__star"><i class="fas fa-star"></i></div>
+                      <div class="rating__star"><i class="fas fa-star"></i></div>
+                    </div>
+                    <a href="#">read reviews (2)</a>
+                  </div>
+                  <div class="one-product__description full">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis error optio perspiciatis quae doloribus vero commodi quasi sed, laboriosam assumenda expedita sit! Nobis eaque aliquid molestias dolor ratione autem corporis?
+                  </div>
+                  <div class="one-product__quantity">
+                    quantity
+                    <div class="input--quantity">
+                      <input type="button" class="input-decrease" value="-">
+                      <input type="text" class="input-value" value="">
+                      <input type="button" class="input-increase" value="+">
+                    </div>
+                  </div>
+                  <div class="one-product__available-quantity">
+                    available quantity <div class="one-product__available-quantity__count">120</div>
+                  </div>
+                  <div class="one-product__buttons full">
+                    <a href="" class="one-product__button">add to cart</a>
+                  </div>
+                  <div class="one-product__links full">
+                    <i class="fas fa-heart"></i> <a href="" class="one-product__link">add to wishlist</a>
+                    <i class="fas fa-clipboard-list"></i> <a href="" class="one-product__link">compare</a>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+        </section>
+        <section class="section theme-solid">
+          <section class="section__container">
+            <section class="box">
+              <div class="component--tabs">
+                <div class="tabs__labels">
+                  <div switcher-id="product-tabs" switcher-box="0" switcher-group="product-product" class="tab__label active">Description</div>
+                  <div switcher-id="product-tabs" switcher-box="1" switcher-group="product-product" class="tab__label">Additional information</div>
+                  <div switcher-id="product-tabs" switcher-box="2" switcher-group="product-product" class="tab__label">Reviews (2)</div>
+                </div>
+              </div>
+              <div class="component--switcher" id="product-tabs">
+                <div class="switcher__boxes">
+                  <div class="switcher__box active">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores cupiditate fugiat deleniti explicabo rem? Expedita aut quam alias exercitationem unde nihil, culpa facilis numquam voluptatem, consectetur ipsum eligendi architecto rerum?</p>
+                    <ul>
+                      <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, necessitatibus expedita atque architecto aliquam consequuntur voluptate veniam officiis quae assumenda eius tempora voluptates quidem porro nemo optio autem animi quod.</li>
+                      <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, necessitatibus expedita atque architecto aliquam consequuntur voluptate veniam officiis quae assumenda eius tempora voluptates quidem porro nemo optio autem animi quod.</li>
+                      <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, necessitatibus expedita atque architecto aliquam consequuntur voluptate veniam officiis quae assumenda eius tempora voluptates quidem porro nemo optio autem animi quod.</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores cupiditate fugiat deleniti explicabo rem? Expedita aut quam alias exercitationem unde nihil, culpa facilis numquam voluptatem, consectetur ipsum eligendi architecto rerum?</p>
+                  </div>
+                  <div class="switcher__box">
+                    <ul>
+                      <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, necessitatibus expedita atque architecto aliquam consequuntur voluptate veniam officiis quae assumenda eius tempora voluptates quidem porro nemo optio autem animi quod.</li>
+                      <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, necessitatibus expedita atque architecto aliquam consequuntur voluptate veniam officiis quae assumenda eius tempora voluptates quidem porro nemo optio autem animi quod.</li>
+                      <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, necessitatibus expedita atque architecto aliquam consequuntur voluptate veniam officiis quae assumenda eius tempora voluptates quidem porro nemo optio autem animi quod.</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores cupiditate fugiat deleniti explicabo rem? Expedita aut quam alias exercitationem unde nihil, culpa facilis numquam voluptatem, consectetur ipsum eligendi architecto rerum?</p>
+                  </div>
+                  <div class="switcher__box">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores cupiditate fugiat deleniti explicabo rem? Expedita aut quam alias exercitationem unde nihil, culpa facilis numquam voluptatem, consectetur ipsum eligendi architecto rerum?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores cupiditate fugiat deleniti explicabo rem? Expedita aut quam alias exercitationem unde nihil, culpa facilis numquam voluptatem, consectetur ipsum eligendi architecto rerum?</p>
+                    <ul>
+                      <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, necessitatibus expedita atque architecto aliquam consequuntur voluptate veniam officiis quae assumenda eius tempora voluptates quidem porro nemo optio autem animi quod.</li>
+                      <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, necessitatibus expedita atque architecto aliquam consequuntur voluptate veniam officiis quae assumenda eius tempora voluptates quidem porro nemo optio autem animi quod.</li>
+                      <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, necessitatibus expedita atque architecto aliquam consequuntur voluptate veniam officiis quae assumenda eius tempora voluptates quidem porro nemo optio autem animi quod.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+        </section>
+        <section class="section theme-solid">
+          <section class="section__container">
+            <section class="box">
+              <div class="component--content-box">
+                <div class="content-box__head">
+                  <div class="content-box__information">
+                    <div class="component--section-information">
+                      <div class="section-information__label">you may also like...</div>
+                      <hr>
+                    </div>
+                  </div>
+                </div>
+                <div class="content-box__body">
+                  <div class="component--products">
+                    <div class="product">
+                      <a href="#" class="product__image">
+                        <img src="files/images/cashu.png" alt="">
+                      </a>
+                      <div class="product__details">
+                        <div class="product__category"><a href="#">home & furniture</a></div>
+                        <div class="product__name"><a href="#">kettle</a></div>
+                        <div class="product__price">$49.00 <span class="product__price--old">$50.00</span></div>
+                        <div class="product__rating">
+                          <div class="product__rating__star"><i class="fas fa-star"></i></div>
+                          <div class="product__rating__star"><i class="fas fa-star"></i></div>
+                          <div class="product__rating__star active"><i class="fas fa-star"></i></div>
+                          <div class="product__rating__star"><i class="fas fa-star"></i></div>
+                          <div class="product__rating__star"><i class="fas fa-star"></i></div>
+                        </div>
+                      </div>
+                      <div class="product__badges">
+                        <div class="product__badge">sale</div>
+                      </div>
+                    </div>
+                    <div class="product">
+                      <a href="#" class="product__image">
+                        <img src="files/images/cashu.png" alt="">
+                      </a>
+                      <div class="product__details">
+                        <div class="product__category"><a href="#">home & furniture</a></div>
+                        <div class="product__name"><a href="#">kettle</a></div>
+                        <div class="product__price">$49.00 <span class="product__price--old">$50.00</span></div>
+                        <div class="product__rating">
+                          <div class="product__rating__star"><i class="fas fa-star"></i></div>
+                          <div class="product__rating__star"><i class="fas fa-star"></i></div>
+                          <div class="product__rating__star active"><i class="fas fa-star"></i></div>
+                          <div class="product__rating__star"><i class="fas fa-star"></i></div>
+                          <div class="product__rating__star"><i class="fas fa-star"></i></div>
+                        </div>
+                      </div>
+                      <div class="product__badges">
+                        <div class="product__badge">sale</div>
+                      </div>
+                    </div>
+                    <div class="product">
+                      <a href="#" class="product__image">
+                        <img src="files/images/cashu.png" alt="">
+                      </a>
+                      <div class="product__details">
+                        <div class="product__category"><a href="#">home & furniture</a></div>
+                        <div class="product__name"><a href="#">kettle</a></div>
+                        <div class="product__price">$49.00 <span class="product__price--old">$50.00</span></div>
+                        <div class="product__rating">
+                          <div class="product__rating__star"><i class="fas fa-star"></i></div>
+                          <div class="product__rating__star"><i class="fas fa-star"></i></div>
+                          <div class="product__rating__star active"><i class="fas fa-star"></i></div>
+                          <div class="product__rating__star"><i class="fas fa-star"></i></div>
+                          <div class="product__rating__star"><i class="fas fa-star"></i></div>
+                        </div>
+                      </div>
+                      <div class="product__badges">
+                        <div class="product__badge">sale</div>
+                      </div>
+                    </div>
+                    <div class="product">
+                      <a href="#" class="product__image">
+                        <img src="files/images/cashu.png" alt="">
+                      </a>
+                      <div class="product__details">
+                        <div class="product__category"><a href="#">home & furniture</a></div>
+                        <div class="product__name"><a href="#">kettle</a></div>
+                        <div class="product__price">$49.00 <span class="product__price--old">$50.00</span></div>
+                        <div class="product__rating">
+                          <div class="product__rating__star"><i class="fas fa-star"></i></div>
+                          <div class="product__rating__star"><i class="fas fa-star"></i></div>
+                          <div class="product__rating__star active"><i class="fas fa-star"></i></div>
+                          <div class="product__rating__star"><i class="fas fa-star"></i></div>
+                          <div class="product__rating__star"><i class="fas fa-star"></i></div>
+                        </div>
+                      </div>
+                      <div class="product__badges">
+                        <div class="product__badge">sale</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+        </section>
+      </section>
+    </main>
+    <!-- / SECTION MAIN -->
+    <!-- SECTION FOOTER -->
+    <footer>
+      <section class="layout">
+        <section class="section theme-solid" id="section--footer">
+          <section class="section__container">
+            <section class="box">
+              <div class="component--footer-items">
+                <div class="footer__item">
+                  <div class="component--links-lists">
+                    <div class="links__list">
+                      <div class="list__title">
+                        contact
+                      </div>
+                      <div class="list__links">
+                        <ul>
+                          <li><a href="#"><div class="list__icon"><i class="fas fa-envelope"></i></div> hi@gitzone.com</a></li>
+                          <li><div class="list__icon"><i class="fas fa-phone"></i></div> +00 1234 123456</li>
+                          <li><div class="list__icon"><i class="fas fa-mobile"></i></div> +00 1234 123456</li>
+                          <li><div class="list__icon"><i class="fas fa-map-marker-alt"></i></div> no 200 joseob, canada</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="box">
+              <div class="component--footer-items">
+                <div class="footer__item">
+                  <div class="component--links-lists">
+                    <div class="links__list">
+                      <div class="list__title">
+                        gitzone
+                      </div>
+                      <div class="list__links">
+                        <ul>
+                          <li><a href="#">how it works</a></li>
+                          <li><a href="#">products</a></li>
+                          <li><a href="#">subscribtions</a></li>
+                          <li><a href="#">news</a></li>
+                          <li><a href="contect-us.html">contact us</a></li>
+                          <li><a href="#">help center</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer__item">
+                  <div class="component--links-lists">
+                    <div class="links__list">
+                      <div class="list__title">
+                        support
+                      </div>
+                      <div class="list__links">
+                        <ul>
+                          <li><a href="#">documentation</a></li>
+                          <li><a href="#">forums</a></li>
+                          <li><a href="#">help center</a></li>
+                          <li><a href="#">portfolio</a></li>
+                          <li><a href="#">trade services</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer__item">
+                  <div class="component--links-lists">
+                    <div class="links__list">
+                      <div class="list__title">
+                        social metworks
+                      </div>
+                      <div class="list__links">
+                        <ul>
+                          <li><a href="#">click and get started in seconds</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="links__list">
+                      <div class="list__links">
+                        <li><a href="#"><img class="list__image" src="files/images/get-it-on-google-play.png" alt=""></a></li>
+                        <li><a href="#"><img class="list__image" src="files/images/download-on-the-app-store.png" alt=""></a></li>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+        </section>
+        <section class="section theme-primary" id="section--bottom-bar">
+          <section class="section__container">
+            <section class="box">
+              <div class="component--social rounded">
+                <ul>
+                  <li><a href="#"><div class="social__icon"><i class="fab fa-facebook-f"></i></div></a></li>
+                  <li><a href="#"><div class="social__icon"><i class="fab fa-linkedin-in"></i></div></a></li>
+                  <li><a href="#"><div class="social__icon"><i class="fab fa-google-plus-g"></i></div></a></li>
+                  <li><a href="#"><div class="social__icon"><i class="fab fa-pinterest-p"></i></div></a></li>
+                  <li><a href="#"><div class="social__icon"><i class="fab fa-instagram"></i></div></a></li>
+                  <li><a href="#"><div class="social__icon"><i class="fab fa-twitter"></i></div></a></li>
+                  <li><a href="#"><div class="social__icon"><i class="fab fa-youtube"></i></div></a></li>
+                </ul>
+              </div>
+            </section>
+            <section class="box">
+                copyrights 2018
+            </section>
+          </section>
+        </section>
+      </section>
+    </footer>
+    <!-- / SECTION FOOTER -->
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/gitzone.js"></script>
+    <!-- / SCRIPTS -->
+    <!-- PRODUCT SCRIPTS -->
+    <script src="assets/js/plugin.select.js"></script>
+    <script>
+      new Select().init();
+    </script>
+    <script>
+      document.querySelectorAll('.product').forEach(element => {
+        activeAllTil(element.querySelectorAll('.product__rating__star'), element.querySelector('.product__rating__star.active'));
+      });
+      document.querySelectorAll('.rating__stars').forEach(element => {
+        activeAllTil(element.querySelectorAll('.rating__star'), element.querySelector('.rating__star.active'));
+      });
+      window.addEventListener('click', function(event) {
+        const target = getParents(event.target, []).find((parent) => parent.classList.contains('rating__star'));
+        if(target) {
+          activeAllTil(target.parentElement.children, target);
+        }
+      });
+      window.addEventListener('click', function(event) {
+        const increase = getParents(event.target, []).find((parent) => parent.classList.contains('input-increase'));
+        if(increase) {
+
+        }
+        const decrease = getParents(event.target, []).find((parent) => parent.classList.contains('input-decrease'));
+        if(decrease) {
+
+        }
+      });
+    </script>
+    <script src="assets/js/plugin.gallery.js"></script>
+    <script>
+      document.querySelectorAll('.component--gallery').forEach(element => {
+        new Gallery({selector: element}).init();
+      });
+    </script>
+    <script src="assets/js/plugin.switcher.js"></script>
+    <script>
+      document.querySelectorAll('.component--switcher').forEach(element => {
+        new Switcher({selector: element}).init();
+      });
+    </script>
+    <!-- / PRODUCT SCRIPTS -->
+  </body>
+</html>

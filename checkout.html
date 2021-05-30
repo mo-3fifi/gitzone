@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<!-- fill language attributes -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>GitZone</title>
+    <!-- STYLE -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/css/bootstrap.front_en.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lateef" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/animation.css" />
+    <link rel="stylesheet" href="assets/css/gitzone.css" />
+    <!-- / STYLE -->
+  </head>
+  <body>
+    <!-- SECTION HEADER -->
+    <header>
+      <section class="layout">
+        <section class="section theme-solid" id="section--top-bar">
+          <section class="section__container">
+            <section class="box">
+              <div class="component--top-bar-items">
+                <div class="top-bar__item">
+                  <div class="component--select" select-component>
+                    <div class="select__icon"><i class="fas fa-globe-africa"></i></div>
+                    <div class="select__label" select-switcher>English</div>
+                    <div class="select__options">
+                      <div class="select__option" select-option="1">English</div>
+                      <div class="select__option" select-option="2">العربية</div>
+                    </div>
+                    <!-- <input type="hidden" select-value value=""> -->
+                    <select name="langauge" select-value>
+                      <option value="1"></option>
+                      <option value="2"></option>
+                    </select>
+                  </div>
+                </div>
+                <div class="top-bar__item">
+                  USD
+                </div>
+                <div class="top-bar__item">
+                  Free shiping for all orders of $ 150
+                </div>
+              </div>
+            </section>
+            <section class="box">
+              <div class="component--top-bar-items">
+                <div class="top-bar__item">
+                  <div class="component--social">
+                    <ul>
+                      <li><a href="#"><div class="social__icon"><i class="fab fa-facebook-f"></i></div></a></li>
+                      <li><a href="#"><div class="social__icon"><i class="fab fa-twitter"></i></div></a></li>
+                      <li><a href="#"><div class="social__icon"><i class="fab fa-google-plus-g"></i></div></a></li>
+                      <li><a href="#"><div class="social__icon"><i class="fab fa-youtube"></i></div></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="top-bar__item">
+                  <a href="login-n-register.html"><div class="inline-icon"><i class="fas fa-user"></i></div> Login / Register</a>
+                </div>
+              </div>
+            </section>
+          </section>
+        </section>
+        <section class="section theme-solid" id="section--header">
+          <section class="section__container">
+            <section class="box">
+              <div class="component--logo">
+                <a href="index.html"><img src="files/images/logo.png" alt=""></a>
+              </div>
+            </section>
+            <section class="box">
+              <div class="component--header-items">
+                <div class="header__item">
+                  <form action="#" class="component--search">
+                    <div class="search__items">
+                      <div class="search__item">
+                        <div class="component--select" select-component>
+                          <div class="select__label" select-switcher>All Categories</div>
+                          <div class="select__options">
+                            <div class="select__option" select-option="1">category 1</div>
+                            <div class="select__option" select-option="2">category 2</div>
+                          </div>
+                          <!-- <input type="hidden" select-value value=""> -->
+                          <select name="category" select-value>
+                            <option value="1"></option>
+                            <option value="2"></option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="search__item">
+                        <input type="text" placeholder="Type here...">
+                      </div>
+                      <div class="search__item">
+                        <button>
+                          <i class="fas fa-search"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="header__item">
+                  <div class="component--notifications">
+                    <div class="notification">
+                      <div class="notification__main">
+                        <a href="#">
+                          <div class="notification__icon"><i class="fas fa-heart"></i></div>
+                          <div class="notification__count">0</div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="notification">
+                      <div class="notification__main">
+                        <a href="#">
+                          <div class="notification__icon"><i class="fas fa-shopping-cart"></i></div>
+                          <div class="notification__count">0</div>
+                        </a>
+                      </div>
+                      <div class="notification__sub">
+                        <div>my cart</div>
+                        <div>total: <span class="notification__description--highlight">$0.00</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+        </section>
+      </section>
+    </header>
+    <!-- / SECTION HEADER -->
+    <!-- SECTION NAV -->
+    <nav>
+      <section class="layout">
+        <section class="section theme-dark" id="section--nav">
+          <section class="section__container">
+            <section class="box">
+              <div class="components--categories-menu">
+                <div class="categories-menu__switch">
+                  <div class="icon__bars">
+                    <div class="icon__bar"></div>
+                    <div class="icon__bar"></div>
+                    <div class="icon__bar"></div>
+                  </div>
+                  <div>
+                    all department
+                  </div>
+                </div>
+                <div class="categories-menu__list">
+                  <div class="categories-menu__element"><a href="#">department 1</a></div>
+                  <div class="categories-menu__element"><a href="#">department 2</a></div>
+                  <div class="categories-menu__element"><a href="#">department 3</a></div>
+                  <div class="categories-menu__element"><a href="#">department 4</a></div>
+                </div>
+              </div>
+            </section>
+            <section class="box">
+              <div class="components--menu">
+                <ul>
+                  <li><a href="#">how it works</a></li>
+                  <li><a href="#">products</a></li>
+                  <li><a href="#">subscribtions</a></li>
+                  <li><a href="#">news</a></li>
+                  <li><a href="contect-us.html">contact us</a></li>
+                  <li><a href="#">help center</a></li>
+                </ul>
+              </div>
+            </section>
+          </section>
+        </section>
+      </section>
+    </nav>
+    <!-- / SECTION NAV -->
+    <!-- SECTION MAIN -->
+    <main>
+      <section class="layout">
+        <section class="section theme-solid">
+          <section class="section__container fluid">
+            <section class="box">
+              <div class="component--cover">
+                <div class="cover__image">
+                  <img src="files/images/inner-page__cover--primary.png" alt="">
+                </div>
+                <div class="cover__title">
+                  checkout
+                </div>
+                <div class="cover__breadcrumb">
+                  <a href="#">home</a>
+                  <a href="#">checkout</a>
+                </div>
+              </div>
+            </section>
+          </section>
+        </section>
+        <section class="section theme-solid">
+          <section class="section__container">
+            <section class="box">
+              <div class="component--content-box">
+                <div class="content-box__body">
+                  <div class="component--form-steps">
+                    <div class="form-steps">
+                      <div switcher-id="checkout" switcher-box="0" switcher-group="checkout" class="form-step active">
+                        1
+                      </div>
+                      <div switcher-id="checkout" switcher-box="1" switcher-group="checkout" class="form-step">
+                        2
+                      </div>
+                      <div switcher-id="checkout" switcher-box="2" switcher-group="checkout" class="form-step">
+                        3
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="component--content-box">
+                <div class="content-box__body">
+                  <div class="component--switcher" id="checkout">
+                    <div class="switcher__boxes">
+                      <div class="switcher__box active">
+                        <form action="#">
+                          <div class="component--products-table">
+                            <table>
+                              <thead>
+                                <tr>
+                                  <th colspan="3">product</th>
+                                  <th>price</th>
+                                  <th>quantity</th>
+                                  <th>total</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>
+                                    <a href="#"><i class="fas fa-trash-alt"></i></a>
+                                  </td>
+                                  <td><img src="files/images/cashu.png" alt=""></td>
+                                  <td class="highlight">CashU</td>
+                                  <td>$79.00</td>
+                                  <td>
+                                    <div class="input--quantity">
+                                      <input type="button" class="input-decrease" value="-">
+                                      <input type="text" class="input-value" value="">
+                                      <input type="button" class="input-increase" value="+">
+                                    </div>
+                                  </td>
+                                  <td class="highlight">$237.00</td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <a href="#"><i class="fas fa-trash-alt"></i></a>
+                                  </td>
+                                  <td><img src="files/images/credit-card.jpeg" alt=""></td>
+                                  <td class="highlight">CashU</td>
+                                  <td>$79.00</td>
+                                  <td>
+                                    <div class="input--quantity">
+                                      <input type="button" class="input-decrease" value="-">
+                                      <input type="text" class="input-value" value="">
+                                      <input type="button" class="input-increase" value="+">
+                                    </div>
+                                  </td>
+                                  <td class="highlight">$237.00</td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    <a href="#"><i class="fas fa-trash-alt"></i></a>
+                                  </td>
+                                  <td><img src="files/images/cashu.png" alt=""></td>
+                                  <td class="highlight">CashU</td>
+                                  <td>$79.00</td>
+                                  <td>
+                                    <div class="input--quantity">
+                                      <input type="button" class="input-decrease" value="-">
+                                      <input type="text" class="input-value" value="">
+                                      <input type="button" class="input-increase" value="+">
+                                    </div>
+                                  </td>
+                                  <td class="highlight">$237.00</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <div class="component--shopping-cart-options">
+                            <a href="#" class="shopping-cart-option">continue shopping</a>
+                            <input type="submit" class="shopping-cart-option theme-light" value="update cart">
+                          </div>
+                          <div class="component--checkout-items">
+                            <div class="checkout-item">
+                              <div class="component--content-box">
+                                <div class="content-box__head">
+                                  <div class="content-box__title">
+                                    coupon code
+                                  </div>
+                                </div>
+                                <div class="content-box__body">
+                                  <div class="component--coupon">
+                                    <div class="coupon__title">
+                                      Estimate your shiping free*
+                                    </div>
+                                    <div class="coupon__input">
+                                      <input type="text" placeholder="Enter your coupon code...">
+                                      <div class="coupon__input__icon">
+                                        <i class="fas fa-tag"></i>
+                                      </div>
+                                    </div>
+                                    <div class="coupon__links">
+                                      <i class="fas fa-paper-plane"></i> <a href="#">Apply Coupon</a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="checkout-item">
+                              <div class="component--content-box">
+                                <div class="content-box__head">
+                                  <div class="content-box__title">
+                                    cart totals
+                                  </div>
+                                </div>
+                                <div class="content-box__body">
+                                  <div class="component--cart-totals">
+                                    <table>
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            subtotal
+                                          </td>
+                                          <td class="highlight">
+                                            $237.00
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            total
+                                          </td>
+                                          <td class="highlight">
+                                            $237.00
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <div class="component--shopping-cart-options">
+                                    <input type="submit" class="shopping-cart-option" value="proceed to checkout">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="switcher__box">
+                        <form action="#">
+                          <div class="component--checkout-items theme-stretch">
+                            <div class="checkout-item">
+                              <div class="component--content-box">
+                                <div class="content-box__head">
+                                  <div class="content-box__title">
+                                    billing details
+                                  </div>
+                                </div>
+                                <div class="content-box__body">
+                                  <div class="component--form">
+                                    <div class="form__section">
+                                      <div class="form__box half">
+                                        <div class="form__label">
+                                          first name
+                                        </div>
+                                        <div class="form__input">
+                                          <input type="text" placeholder="Enter your first name">
+                                        </div>
+                                      </div>
+                                      <div class="form__box half">
+                                        <div class="form__label">
+                                          last name
+                                        </div>
+                                        <div class="form__input">
+                                          <input type="text" placeholder="Enter your last name">
+                                        </div>
+                                      </div>
+                                      <div class="form__box">
+                                        <div class="form__label">
+                                          company name (optional)
+                                        </div>
+                                        <div class="form__input">
+                                          <input type="text" placeholder="Enter your company name">
+                                        </div>
+                                      </div>
+                                      <div class="form__box">
+                                        <div class="form__label">
+                                          country
+                                        </div>
+                                        <div class="form__input">
+                                          <input type="text" placeholder="Enter your country">
+                                        </div>
+                                      </div>
+                                      <div class="form__box">
+                                        <div class="form__label">
+                                          street address
+                                        </div>
+                                        <div class="form__input">
+                                          <input type="text" placeholder="House number and street name">
+                                        </div>
+                                      </div>
+                                      <div class="form__box">
+                                        <div class="form__input">
+                                          <input type="text" placeholder="Appartment, suite, unit etc. (optional)">
+                                        </div>
+                                      </div>
+                                      <div class="form__box">
+                                        <div class="form__label">
+                                          town / city
+                                        </div>
+                                        <div class="form__input">
+                                          <input type="text" placeholder="Enter your town / city">
+                                        </div>
+                                      </div>
+                                      <div class="form__box">
+                                        <div class="form__label">
+                                          state / country
+                                        </div>
+                                        <div class="form__input">
+                                          <input type="text" placeholder="Enter your state / country">
+                                        </div>
+                                      </div>
+                                      <div class="form__box">
+                                        <div class="form__label">
+                                          postal / zip
+                                        </div>
+                                        <div class="form__input">
+                                          <input type="text" placeholder="Enter your postal / zip">
+                                        </div>
+                                      </div>
+                                      <div class="form__box">
+                                        <div class="form__label">
+                                          email address
+                                        </div>
+                                        <div class="form__input">
+                                          <input type="text" placeholder="Enter your email address">
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <a href="#">CREATE AN ACCOUNT?</a>
+                              <div class="component--content-box">
+                                <div class="content-box__head">
+                                  <div class="content-box__title">
+                                    additional information
+                                  </div>
+                                </div>
+                                <div class="content-box__body">
+                                  <div class="component--form">
+                                    <div class="form__section">
+                                      <div class="form__box">
+                                        <div class="form__label">
+                                          order notes
+                                        </div>
+                                        <div class="form__input">
+                                          <textarea placeholder="notes about your order, e.g special notes for delivery"></textarea>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="checkout-item">
+                              <div class="component--content-box">
+                                <div class="content-box__head">
+                                  <div class="content-box__title">
+                                    your order
+                                  </div>
+                                </div>
+                                <div class="content-box__body">
+                                  <div class="component--checkout">
+                                    <div class="checkout__details">
+                                      <div class="details__record">
+                                        <div class="record__label">product</div>
+                                        <div class="record__value"></div>
+                                      </div>
+                                      <div class="details__record theme-sub">
+                                        <div class="record__label">advanced pack x 1</div>
+                                        <div class="record__value">31.5$</div>
+                                      </div>
+                                      <div class="details__record theme-sub">
+                                        <div class="record__label">advanced pack x 1</div>
+                                        <div class="record__value">31.5$</div>
+                                      </div>
+                                      <div class="details__record theme-sub">
+                                        <div class="record__label">advanced pack x 1</div>
+                                        <div class="record__value">31.5$</div>
+                                      </div>
+                                      <div class="details__record">
+                                        <div class="record__label">logistic fees</div>
+                                        <div class="record__value">12$</div>
+                                      </div>
+                                      <div class="details__record">
+                                        <div class="record__label">total</div>
+                                        <div class="record__value">43.5$</div>
+                                      </div>
+                                    </div>
+                                    <div class="checkout__info">
+                                      Sorry, it seems that there is no payment methods for your state, please contact us if you require assisance or wish to make alternate arragements.
+                                    </div>
+                                    <input type="submit" class="checkout__button" value="place your order">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="switcher__box">
+                        <form action="#">
+                          <div class="component--checkout-items theme-stretch">
+                            <div class="checkout-item">
+                              <div class="component--content-box">
+                                <div class="content-box__head">
+                                  <div class="content-box__title">
+                                    payment
+                                  </div>
+                                </div>
+                                <div class="content-box__body">
+                                  <div class="component--form">
+                                    <div class="form__section">
+                                      <div class="form__box">
+                                        <div class="form__label">
+                                          please choose a payment method
+                                        </div>
+                                        <div class="form__cards theme-full">
+                                          <div class="form__card">
+                                            <div class="form__card__input">
+                                              <input type="radio" name="payment">
+                                            </div>
+                                            <div class="form__card__details">
+                                              <div class="form__card__title">
+                                                Credit Card
+                                              </div>
+                                              <div class="form__card__description">
+                                                Online payment usually is the transaction that results in transfer of monetary funds from the customer bank or credit card account to your bank account
+                                              </div>
+                                            </div>
+                                            <div class="form__card__image">
+                                              <img src="files/images/credit-card.jpeg" alt="">
+                                            </div>
+                                          </div>
+                                          <div class="form__card">
+                                            <div class="form__card__input">
+                                              <input type="radio" name="payment">
+                                            </div>
+                                            <div class="form__card__details">
+                                              <div class="form__card__title">
+                                                Cash on Delivery (COD)
+                                              </div>
+                                              <div class="form__card__description">
+                                                Online payment usually is the transaction that results in transfer of monetary funds from the customer bank or credit card account to your bank account
+                                              </div>
+                                            </div>
+                                            <div class="form__card__image">
+                                              <img src="files/images/cod.jpg" alt="">
+                                            </div>
+                                          </div>
+                                          <div class="form__card">
+                                            <div class="form__card__input">
+                                              <input type="radio" name="payment">
+                                            </div>
+                                            <div class="form__card__details">
+                                              <div class="form__card__title">
+                                                PayPal
+                                              </div>
+                                              <div class="form__card__description">
+                                                Online payment usually is the transaction that results in transfer of monetary funds from the customer bank or credit card account to your bank account
+                                              </div>
+                                            </div>
+                                            <div class="form__card__image">
+                                              <img src="files/images/paypal.png" alt="">
+                                            </div>
+                                          </div>
+                                          <div class="form__card">
+                                            <div class="form__card__input">
+                                              <input type="radio" name="payment">
+                                            </div>
+                                            <div class="form__card__details">
+                                              <div class="form__card__title">
+                                                CASHU
+                                              </div>
+                                              <div class="form__card__description">
+                                                Online payment usually is the transaction that results in transfer of monetary funds from the customer bank or credit card account to your bank account
+                                              </div>
+                                            </div>
+                                            <div class="form__card__image">
+                                              <img src="files/images/cashu.png" alt="">
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="checkout-item">
+                              <div class="component--content-box">
+                                <div class="content-box__head">
+                                  <div class="content-box__title">
+                                    your order
+                                  </div>
+                                </div>
+                                <div class="content-box__body">
+                                  <div class="component--checkout">
+                                    <div class="checkout__details">
+                                      <div class="details__record">
+                                        <div class="record__label">product</div>
+                                        <div class="record__value"></div>
+                                      </div>
+                                      <div class="details__record theme-sub">
+                                        <div class="record__label">advanced pack x 1</div>
+                                        <div class="record__value">31.5$</div>
+                                      </div>
+                                      <div class="details__record theme-sub">
+                                        <div class="record__label">advanced pack x 1</div>
+                                        <div class="record__value">31.5$</div>
+                                      </div>
+                                      <div class="details__record theme-sub">
+                                        <div class="record__label">advanced pack x 1</div>
+                                        <div class="record__value">31.5$</div>
+                                      </div>
+                                      <div class="details__record">
+                                        <div class="record__label">logistic fees</div>
+                                        <div class="record__value">12$</div>
+                                      </div>
+                                      <div class="details__record">
+                                        <div class="record__label">total</div>
+                                        <div class="record__value">43.5$</div>
+                                      </div>
+                                    </div>
+                                    <div class="checkout__info">
+                                      Sorry, it seems that there is no payment methods for your state, please contact us if you require assisance or wish to make alternate arragements.
+                                    </div>
+                                    <input type="submit" class="checkout__button" value="place your order">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+        </section>
+      </section>
+    </main>
+    <!-- / SECTION MAIN -->
+    <!-- SECTION FOOTER -->
+    <footer>
+      <section class="layout">
+        <section class="section theme-solid" id="section--footer">
+          <section class="section__container">
+            <section class="box">
+              <div class="component--footer-items">
+                <div class="footer__item">
+                  <div class="component--links-lists">
+                    <div class="links__list">
+                      <div class="list__title">
+                        contact
+                      </div>
+                      <div class="list__links">
+                        <ul>
+                          <li><a href="#"><div class="list__icon"><i class="fas fa-envelope"></i></div> hi@gitzone.com</a></li>
+                          <li><div class="list__icon"><i class="fas fa-phone"></i></div> +00 1234 123456</li>
+                          <li><div class="list__icon"><i class="fas fa-mobile"></i></div> +00 1234 123456</li>
+                          <li><div class="list__icon"><i class="fas fa-map-marker-alt"></i></div> no 200 joseob, canada</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="box">
+              <div class="component--footer-items">
+                <div class="footer__item">
+                  <div class="component--links-lists">
+                    <div class="links__list">
+                      <div class="list__title">
+                        gitzone
+                      </div>
+                      <div class="list__links">
+                        <ul>
+                          <li><a href="#">how it works</a></li>
+                          <li><a href="#">products</a></li>
+                          <li><a href="#">subscribtions</a></li>
+                          <li><a href="#">news</a></li>
+                          <li><a href="contect-us.html">contact us</a></li>
+                          <li><a href="#">help center</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer__item">
+                  <div class="component--links-lists">
+                    <div class="links__list">
+                      <div class="list__title">
+                        support
+                      </div>
+                      <div class="list__links">
+                        <ul>
+                          <li><a href="#">documentation</a></li>
+                          <li><a href="#">forums</a></li>
+                          <li><a href="#">help center</a></li>
+                          <li><a href="#">portfolio</a></li>
+                          <li><a href="#">trade services</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer__item">
+                  <div class="component--links-lists">
+                    <div class="links__list">
+                      <div class="list__title">
+                        social metworks
+                      </div>
+                      <div class="list__links">
+                        <ul>
+                          <li><a href="#">click and get started in seconds</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="links__list">
+                      <div class="list__links">
+                        <li><a href="#"><img class="list__image" src="files/images/get-it-on-google-play.png" alt=""></a></li>
+                        <li><a href="#"><img class="list__image" src="files/images/download-on-the-app-store.png" alt=""></a></li>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+        </section>
+        <section class="section theme-primary" id="section--bottom-bar">
+          <section class="section__container">
+            <section class="box">
+              <div class="component--social rounded">
+                <ul>
+                  <li><a href="#"><div class="social__icon"><i class="fab fa-facebook-f"></i></div></a></li>
+                  <li><a href="#"><div class="social__icon"><i class="fab fa-linkedin-in"></i></div></a></li>
+                  <li><a href="#"><div class="social__icon"><i class="fab fa-google-plus-g"></i></div></a></li>
+                  <li><a href="#"><div class="social__icon"><i class="fab fa-pinterest-p"></i></div></a></li>
+                  <li><a href="#"><div class="social__icon"><i class="fab fa-instagram"></i></div></a></li>
+                  <li><a href="#"><div class="social__icon"><i class="fab fa-twitter"></i></div></a></li>
+                  <li><a href="#"><div class="social__icon"><i class="fab fa-youtube"></i></div></a></li>
+                </ul>
+              </div>
+            </section>
+            <section class="box">
+              copyrights 2018
+            </section>
+          </section>
+        </section>
+      </section>
+    </footer>
+    <!-- / SECTION FOOTER -->
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/gitzone.js"></script>
+    <!-- / SCRIPTS -->
+    <!-- CHECKOUT SCRIPTS -->
+    <script src="assets/js/plugin.select.js"></script>
+    <script>
+      new Select().init();
+    </script>
+    <script>
+      document.querySelectorAll('.component--form-steps').forEach(element => {
+        activeAllTil(element.querySelectorAll('.form-step'), element.querySelector('.form-step.active'));
+      });
+    </script>
+    <script src="assets/js/plugin.switcher.js"></script>
+    <script>
+      document.querySelectorAll('.component--switcher').forEach(element => {
+        new Switcher({selector: element}).init();
+      });
+    </script>
+    <script>
+      window.addEventListener('click', function(event) {
+        const target = getParents(event.target, []).find((parent) => parent.classList.contains('form-step'));
+        if(target) {
+          activeAllTil(getParents(target, []).find((parent) => parent.classList.contains('component--form-steps')).querySelectorAll('.form-step'), target);
+        }
+      });
+    </script>
+    <!-- / CHECKOUT SCRIPTS -->
+  </body>
+</html>

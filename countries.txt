@@ -1,0 +1,1955 @@
+
+                                <ul class="world-map__countries">
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--afghanistan" data-opportunities="25">
+                                    <div class="world-map__country__name">afghanistan</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/afghanistan.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--albania" data-opportunities="25">
+                                    <div class="world-map__country__name">albania</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/albania.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--algeria" data-opportunities="25">
+                                    <div class="world-map__country__name">algeria</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/algeria.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--andorra" data-opportunities="25">
+                                    <div class="world-map__country__name">andorra</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/andorra.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--angola" data-opportunities="25">
+                                    <div class="world-map__country__name">angola</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/angola.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--antigua-and-barbuda" data-opportunities="25">
+                                    <div class="world-map__country__name">angantigua and barbudaola</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/antigua-and-barbuda.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--argentina" data-opportunities="25">
+                                    <div class="world-map__country__name">argentina</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/argentina.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--armenia" data-opportunities="25">
+                                    <div class="world-map__country__name">armenia</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/armenia.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--australia" data-opportunities="25">
+                                    <div class="world-map__country__name">australia</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/australia.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--austria" data-opportunities="25">
+                                    <div class="world-map__country__name">austria</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/austria.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--azerbaijan" data-opportunities="25">
+                                    <div class="world-map__country__name">azerbaijan</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/azerbaijan.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--bahamas" data-opportunities="25">
+                                    <div class="world-map__country__name">bahamas</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/bahamas.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--bahrain" data-opportunities="25">
+                                    <div class="world-map__country__name">bahrain</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/bahrain.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--bangladesh" data-opportunities="25">
+                                    <div class="world-map__country__name">bangladesh</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/bangladesh.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--barbados" data-opportunities="25">
+                                    <div class="world-map__country__name">barbados</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/barbados.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--belarus" data-opportunities="25">
+                                    <div class="world-map__country__name">belarus</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/belarus.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--belgium" data-opportunities="25">
+                                    <div class="world-map__country__name">belgium</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/belgium.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--belize" data-opportunities="25">
+                                    <div class="world-map__country__name">belize</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/belize.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--benin" data-opportunities="25">
+                                    <div class="world-map__country__name">benin</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/benin.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--bhutan" data-opportunities="25">
+                                    <div class="world-map__country__name">bhutan</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/bhutan.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--bolivia" data-opportunities="25">
+                                    <div class="world-map__country__name">bolivia</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/bolivia.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--bosnia-and-herzegovina" data-opportunities="25">
+                                    <div class="world-map__country__name">bosnia and herzegovina</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/bosnia-and-herzegovina.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--botswana" data-opportunities="25">
+                                    <div class="world-map__country__name">botswana</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/botswana.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--brazil" data-opportunities="25">
+                                    <div class="world-map__country__name">brazil</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/brazil.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--bulgaria" data-opportunities="25">
+                                    <div class="world-map__country__name">bulgaria</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/bulgaria.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--burkina-faso" data-opportunities="25">
+                                    <div class="world-map__country__name">burkina faso</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/burkina-faso.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--burundi" data-opportunities="25">
+                                    <div class="world-map__country__name">burundi</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/burundi.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--cape-verde" data-opportunities="25">
+                                    <div class="world-map__country__name">cape verde</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/cape-verde.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--cambodia" data-opportunities="25">
+                                    <div class="world-map__country__name">cambodia</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/cambodia.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--cameroon" data-opportunities="25">
+                                    <div class="world-map__country__name">cameroon</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/cameroon.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--canada" data-opportunities="25">
+                                    <div class="world-map__country__name">canada</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/canada.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--central-african-republic" data-opportunities="25">
+                                    <div class="world-map__country__name">central african republic</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/central-african-republic.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--chad" data-opportunities="25">
+                                    <div class="world-map__country__name">chad</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/chad.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--chile" data-opportunities="25">
+                                    <div class="world-map__country__name">chile</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/chile.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--china" data-opportunities="25">
+                                    <div class="world-map__country__name">china</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/china.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--colombia" data-opportunities="25">
+                                    <div class="world-map__country__name">colombia</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/colombia.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--comoros" data-opportunities="25">
+                                    <div class="world-map__country__name">comoros</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/comoros.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--democratic-republic-of-congo" data-opportunities="25">
+                                    <div class="world-map__country__name">democratic republic of congo</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/democratic-republic-of-congo.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--republic-of-the-congo" data-opportunities="25">
+                                    <div class="world-map__country__name">republic of the congo</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/republic-of-the-congo.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--costa-rica" data-opportunities="25">
+                                    <div class="world-map__country__name">costa rica</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/costa-rica.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--ivory-coast" data-opportunities="25">
+                                    <div class="world-map__country__name">ivory coast</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/ivory-coast.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--croatia" data-opportunities="25">
+                                    <div class="world-map__country__name">croatia</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/croatia.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--cuba" data-opportunities="25">
+                                    <div class="world-map__country__name">cuba</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/cuba.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--cyprus" data-opportunities="25">
+                                    <div class="world-map__country__name">cyprus</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/cyprus.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--czech-republic" data-opportunities="25">
+                                    <div class="world-map__country__name">czech republic</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/czech-republic.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--denmark" data-opportunities="25">
+                                    <div class="world-map__country__name">denmark</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/denmark.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--djibouti" data-opportunities="25">
+                                    <div class="world-map__country__name">djibouti</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/djibouti.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--dominica" data-opportunities="25">
+                                    <div class="world-map__country__name">dominica</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/dominica.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--dominican-republic" data-opportunities="25">
+                                    <div class="world-map__country__name">dominican republic</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/dominican-republic.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--east-timor" data-opportunities="25">
+                                    <div class="world-map__country__name">east timor</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/east-timor.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--ecuador" data-opportunities="25">
+                                    <div class="world-map__country__name">ecuador</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/ecuador.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--egypt" data-opportunities="25">
+                                    <div class="world-map__country__name">egypt</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/egypt.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--salvador" data-opportunities="25">
+                                    <div class="world-map__country__name">salvador</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/salvador.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--equatorial-guinea" data-opportunities="25">
+                                    <div class="world-map__country__name">equatorial guinea</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/equatorial-guinea.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--eritrea" data-opportunities="25">
+                                    <div class="world-map__country__name">eritrea</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/eritrea.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--estonia" data-opportunities="25">
+                                    <div class="world-map__country__name">estonia</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/estonia.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--ethiopia" data-opportunities="25">
+                                    <div class="world-map__country__name">ethiopia</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/ethiopia.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--fiji" data-opportunities="15">
+                                    <div class="world-map__country__name">fiji</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/fiji.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--finland" data-opportunities="15">
+                                    <div class="world-map__country__name">finland</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/finland.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--france" data-opportunities="15">
+                                    <div class="world-map__country__name">france</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/france.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--gabon" data-opportunities="15">
+                                    <div class="world-map__country__name">gabon</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/gabon.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--gambia" data-opportunities="15">
+                                    <div class="world-map__country__name">gambia</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/gambia.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--georgia" data-opportunities="15">
+                                    <div class="world-map__country__name">georgia</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/georgia.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--germany" data-opportunities="15">
+                                    <div class="world-map__country__name">germany</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/germany.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--ghana" data-opportunities="15">
+                                    <div class="world-map__country__name">ghana</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/ghana.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--greece" data-opportunities="15">
+                                    <div class="world-map__country__name">greece</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/greece.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--grenada" data-opportunities="15">
+                                    <div class="world-map__country__name">grenada</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/grenada.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--guatemala" data-opportunities="15">
+                                    <div class="world-map__country__name">guatemala</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/guatemala.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--guinea" data-opportunities="15">
+                                    <div class="world-map__country__name">guinea</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/guinea.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--guinea-bissau" data-opportunities="15">
+                                    <div class="world-map__country__name">guinea bissau</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/guinea-bissau.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--guyana" data-opportunities="15">
+                                    <div class="world-map__country__name">guyana</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/guyana.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--haiti" data-opportunities="15">
+                                    <div class="world-map__country__name">haiti</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/haiti.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--honduras" data-opportunities="15">
+                                    <div class="world-map__country__name">honduras</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/honduras.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--hungary" data-opportunities="15">
+                                    <div class="world-map__country__name">hungary</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/hungary.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--iceland" data-opportunities="15">
+                                    <div class="world-map__country__name">iceland</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/iceland.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--india" data-opportunities="15">
+                                    <div class="world-map__country__name">india</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/india.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--indonesia" data-opportunities="15">
+                                    <div class="world-map__country__name">indonesia</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/indonesia.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--iran" data-opportunities="15">
+                                    <div class="world-map__country__name">iran</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/iran.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--iraq" data-opportunities="15">
+                                    <div class="world-map__country__name">iraq</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/iraq.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--ireland" data-opportunities="15">
+                                    <div class="world-map__country__name">ireland</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/ireland.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--israel" data-opportunities="15">
+                                    <div class="world-map__country__name">israel</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/israel.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--italy" data-opportunities="15">
+                                    <div class="world-map__country__name">italy</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/italy.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--jamaica" data-opportunities="15">
+                                    <div class="world-map__country__name">jamaica</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/jamaica.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--japan" data-opportunities="15">
+                                    <div class="world-map__country__name">japan</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/japan.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--jordan" data-opportunities="15">
+                                    <div class="world-map__country__name">jordan</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/jordan.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--kazakhstan" data-opportunities="15">
+                                    <div class="world-map__country__name">kazakhstan</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/kazakhstan.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--kenya" data-opportunities="15">
+                                    <div class="world-map__country__name">kenya</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/kenya.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--kiribati" data-opportunities="15">
+                                    <div class="world-map__country__name">kiribati</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/kiribati.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--north-korea" data-opportunities="15">
+                                    <div class="world-map__country__name">north korea</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/north-korea.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--south-korea" data-opportunities="15">
+                                    <div class="world-map__country__name">south korea</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/south-korea.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--kosovo" data-opportunities="15">
+                                    <div class="world-map__country__name">kosovo</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/kosovo.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--kuwait" data-opportunities="15">
+                                    <div class="world-map__country__name">kuwait</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/kuwait.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--kyrgyzstan" data-opportunities="15">
+                                    <div class="world-map__country__name">kyrgyzstan</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/kyrgyzstan.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--laos" data-opportunities="15">
+                                    <div class="world-map__country__name">laos</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/laos.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--latvia" data-opportunities="15">
+                                    <div class="world-map__country__name">latvia</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/latvia.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--lebanon" data-opportunities="15">
+                                    <div class="world-map__country__name">lebanon</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/lebanon.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--lesotho" data-opportunities="15">
+                                    <div class="world-map__country__name">lesotho</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/lesotho.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--liberia" data-opportunities="15">
+                                    <div class="world-map__country__name">liberia</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/liberia.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--libya" data-opportunities="15">
+                                    <div class="world-map__country__name">libya</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/libya.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--liechtenstein" data-opportunities="15">
+                                    <div class="world-map__country__name">liechtenstein</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/liechtenstein.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--lithuania" data-opportunities="15">
+                                    <div class="world-map__country__name">lithuania</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/lithuania.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--luxembourg" data-opportunities="15">
+                                    <div class="world-map__country__name">luxembourg</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/luxembourg.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--republic-of-macedonia" data-opportunities="15">
+                                    <div class="world-map__country__name">republic of macedonia</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/republic-of-macedonia.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--madagascar" data-opportunities="15">
+                                    <div class="world-map__country__name">madagascar</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/madagascar.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--malawi" data-opportunities="15">
+                                    <div class="world-map__country__name">malawi</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/malawi.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--malaysia" data-opportunities="15">
+                                    <div class="world-map__country__name">malaysia</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/malaysia.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--maldives" data-opportunities="15">
+                                    <div class="world-map__country__name">maldives</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/maldives.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--mali" data-opportunities="15">
+                                    <div class="world-map__country__name">mali</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/mali.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--malta" data-opportunities="15">
+                                    <div class="world-map__country__name">malta</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/malta.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--marshall-island" data-opportunities="15">
+                                    <div class="world-map__country__name">marshall island</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/marshall-island.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--mauritania" data-opportunities="15">
+                                    <div class="world-map__country__name">mauritania</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/mauritania.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--mauritius" data-opportunities="15">
+                                    <div class="world-map__country__name">mauritius</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/mauritius.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--mexico" data-opportunities="15">
+                                    <div class="world-map__country__name">mexico</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/mexico.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--micronesia" data-opportunities="15">
+                                    <div class="world-map__country__name">micronesia</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/micronesia.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--moldova" data-opportunities="15">
+                                    <div class="world-map__country__name">moldova</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/moldova.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--monaco" data-opportunities="15">
+                                    <div class="world-map__country__name">monaco</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/monaco.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--mongolia" data-opportunities="15">
+                                    <div class="world-map__country__name">mongolia</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/mongolia.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--montenegro" data-opportunities="15">
+                                    <div class="world-map__country__name">montenegro</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/montenegro.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--morocco" data-opportunities="15">
+                                    <div class="world-map__country__name">morocco</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/morocco.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--mozambique" data-opportunities="15">
+                                    <div class="world-map__country__name">mozambique</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/mozambique.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--myanmar" data-opportunities="15">
+                                    <div class="world-map__country__name">myanmar</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/myanmar.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--namibia" data-opportunities="15">
+                                    <div class="world-map__country__name">namibia</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/namibia.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--nauru" data-opportunities="15">
+                                    <div class="world-map__country__name">nauru</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/nauru.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--nepal" data-opportunities="15">
+                                    <div class="world-map__country__name">nepal</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/nepal.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--netherlands" data-opportunities="15">
+                                    <div class="world-map__country__name">netherlands</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/netherlands.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--new-zealand" data-opportunities="15">
+                                    <div class="world-map__country__name">new zealand</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/new-zealand.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--nicaragua" data-opportunities="15">
+                                    <div class="world-map__country__name">nicaragua</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/nicaragua.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--niger" data-opportunities="15">
+                                    <div class="world-map__country__name">niger</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/niger.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--nigeria" data-opportunities="15">
+                                    <div class="world-map__country__name">nigeria</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/nigeria.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--norway" data-opportunities="15">
+                                    <div class="world-map__country__name">norway</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/norway.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--oman" data-opportunities="15">
+                                    <div class="world-map__country__name">oman</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/oman.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--pakistan" data-opportunities="15">
+                                    <div class="world-map__country__name">pakistan</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/pakistan.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--palau" data-opportunities="15">
+                                    <div class="world-map__country__name">palau</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/palau.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--panama" data-opportunities="15">
+                                    <div class="world-map__country__name">panama</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/panama.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--papua-new-guinea" data-opportunities="15">
+                                    <div class="world-map__country__name">papua new guinea</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/papua-new-guinea.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--paraguay" data-opportunities="15">
+                                    <div class="world-map__country__name">paraguay</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/paraguay.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--peru" data-opportunities="15">
+                                    <div class="world-map__country__name">peru</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/peru.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--philippines" data-opportunities="15">
+                                    <div class="world-map__country__name">philippines</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/philippines.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--republic-of-poland" data-opportunities="15">
+                                    <div class="world-map__country__name">republic of poland</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/republic-of-poland.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--portugal" data-opportunities="15">
+                                    <div class="world-map__country__name">portugal</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/portugal.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--qatar" data-opportunities="15">
+                                    <div class="world-map__country__name">qatar</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/qatar.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--romania" data-opportunities="15">
+                                    <div class="world-map__country__name">romania</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/romania.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--russia" data-opportunities="15">
+                                    <div class="world-map__country__name">russia</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/russia.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--rwanda" data-opportunities="15">
+                                    <div class="world-map__country__name">rwanda</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/rwanda.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--saint-kitts-and-nevis" data-opportunities="15">
+                                    <div class="world-map__country__name">saint kitts and nevis</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/saint-kitts-and-nevis.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--st-lucia" data-opportunities="15">
+                                    <div class="world-map__country__name">st lucia</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/st-lucia.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--st-vincent-and-the-grenadines" data-opportunities="15">
+                                    <div class="world-map__country__name">st vincent and the grenadines</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/st-vincent-and-the-grenadines.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--samoa" data-opportunities="15">
+                                    <div class="world-map__country__name">samoa</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/samoa.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--san-marino" data-opportunities="15">
+                                    <div class="world-map__country__name">san marino</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/san-marino.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--sao-tome-and-principe" data-opportunities="15">
+                                    <div class="world-map__country__name">sao tome and principe</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/sao-tome-and-principe.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--saudi-arabia" data-opportunities="15">
+                                    <div class="world-map__country__name">saudi arabia</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/saudi-arabia.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--senegal" data-opportunities="15">
+                                    <div class="world-map__country__name">senegal</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/senegal.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--serbia" data-opportunities="15">
+                                    <div class="world-map__country__name">serbia</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/serbia.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--seychelles" data-opportunities="15">
+                                    <div class="world-map__country__name">seychelles</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/seychelles.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--sierra-leone" data-opportunities="15">
+                                    <div class="world-map__country__name">sierra leone</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/sierra-leone.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--singapore" data-opportunities="15">
+                                    <div class="world-map__country__name">singapore</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/singapore.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--slovakia" data-opportunities="15">
+                                    <div class="world-map__country__name">slovakia</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/slovakia.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--slovenia" data-opportunities="15">
+                                    <div class="world-map__country__name">slovenia</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/slovenia.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--solomon-islands" data-opportunities="15">
+                                    <div class="world-map__country__name">solomon islands</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/solomon-islands.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--somalia" data-opportunities="15">
+                                    <div class="world-map__country__name">somalia</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/somalia.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--south-africa" data-opportunities="15">
+                                    <div class="world-map__country__name">south africa</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/south-africa.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--spain" data-opportunities="15">
+                                    <div class="world-map__country__name">spain</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/spain.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--sri-lanka" data-opportunities="15">
+                                    <div class="world-map__country__name">sri lanka</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/sri-lanka.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--sudan" data-opportunities="15">
+                                    <div class="world-map__country__name">sudan</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/sudan.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--south-sudan" data-opportunities="15">
+                                    <div class="world-map__country__name">south sudan</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/south-sudan.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--suriname" data-opportunities="15">
+                                    <div class="world-map__country__name">suriname</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/suriname.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--swaziland" data-opportunities="15">
+                                    <div class="world-map__country__name">swaziland</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/swaziland.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--sweden" data-opportunities="15">
+                                    <div class="world-map__country__name">sweden</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/sweden.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--switzerland" data-opportunities="15">
+                                    <div class="world-map__country__name">switzerland</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/switzerland.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--syria" data-opportunities="15">
+                                    <div class="world-map__country__name">syria</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/syria.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--taiwan" data-opportunities="15">
+                                    <div class="world-map__country__name">taiwan</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/taiwan.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--tajikistan" data-opportunities="15">
+                                    <div class="world-map__country__name">tajikistan</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/tajikistan.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--tanzania" data-opportunities="15">
+                                    <div class="world-map__country__name">tanzania</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/tanzania.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--thailand" data-opportunities="15">
+                                    <div class="world-map__country__name">thailand</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/thailand.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--togo" data-opportunities="15">
+                                    <div class="world-map__country__name">togo</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/togo.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--tonga" data-opportunities="15">
+                                    <div class="world-map__country__name">tonga</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/tonga.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--trinidad-and-tobago" data-opportunities="15">
+                                    <div class="world-map__country__name">trinidad and tobago</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/trinidad-and-tobago.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--tunisia" data-opportunities="15">
+                                    <div class="world-map__country__name">tunisia</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/tunisia.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--turkey" data-opportunities="15">
+                                    <div class="world-map__country__name">turkey</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/turkey.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--turkmenistan" data-opportunities="15">
+                                    <div class="world-map__country__name">turkmenistan</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/turkmenistan.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--tuvalu" data-opportunities="15">
+                                    <div class="world-map__country__name">tuvalu</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/tuvalu.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--uganda" data-opportunities="15">
+                                    <div class="world-map__country__name">uganda</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/uganda.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--ukraine" data-opportunities="15">
+                                    <div class="world-map__country__name">ukraine</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/ukraine.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--united-arab-emirates" data-opportunities="15">
+                                    <div class="world-map__country__name">united-arab-emirates</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/united-arab-emirates.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--united-kingdom" data-opportunities="15">
+                                    <div class="world-map__country__name">united-kingdom</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/united-kingdom.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--united-states-of-america" data-opportunities="45">
+                                    <div class="world-map__country__name">united states of america</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/united-states-of-america.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--uruguay" data-opportunities="15">
+                                    <div class="world-map__country__name">uruguay</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/uruguay.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--uzbekistn" data-opportunities="15">
+                                    <div class="world-map__country__name">uzbekistn</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/uzbekistn.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--vanuatu" data-opportunities="15">
+                                    <div class="world-map__country__name">vanuatu</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/vanuatu.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--vatican-city" data-opportunities="15">
+                                    <div class="world-map__country__name">vatican city</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/vatican-city.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--venezuela" data-opportunities="15">
+                                    <div class="world-map__country__name">venezuela</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/venezuela.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--vietnam" data-opportunities="15">
+                                    <div class="world-map__country__name">vietnam</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/vietnam.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--yemen" data-opportunities="15">
+                                    <div class="world-map__country__name">yemen</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/yemen.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--zambia" data-opportunities="15">
+                                    <div class="world-map__country__name">zambia</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/zambia.png" alt="" />
+                                    </div>
+                                  </li>
+                                  <li switcher-id="countries" switcher-box="1" class="world-map__country name--zimbabwe" data-opportunities="15">
+                                    <div class="world-map__country__name">zimbabwe</div>
+                                    <div class="world-map__country__icon">
+                                      <img src="files/images/flags/zimbabwe.png" alt="" />
+                                    </div>
+                                  </li>
+                                </ul>
+
+                                
+    .world-map__country.name--afghanistan {
+      top: 44.3213296399%;
+      left: 66.3544106167%;
+    }
+    .world-map__country.name--albania {
+      top: 39.7506925208%;
+      left: 53.7080405933%;
+    }
+    .world-map__country.name--algeria {
+      top: 48.1994459834%;
+      left: 49.1803278689%;
+    }
+    .world-map__country.name--andorra {
+      top: 38.91966759%;
+      left: 48.7900078064%;
+    }
+    .world-map__country.name--angola {
+      top: 71.7451523546%;
+      left: 53.0054644809%;
+    }
+    .world-map__country.name--antigua-and-barbuda {
+      top: 54.2936288089%;
+      left: 28.4153005464%;
+    }
+    .world-map__country.name--argentina {
+      top: 86.9806094183%;
+      left: 27.868852459%;
+    }
+    .world-map__country.name--armenia {
+      top: 40.1662049861%;
+      left: 60.343481655%;
+    }
+    .world-map__country.name--australia {
+      top: 79.0858725762%;
+      left: 85.0117096019%;
+    }
+    .world-map__country.name--austria {
+      top: 35.4570637119%;
+      left: 52.068696331%;
+    }
+    .world-map__country.name--azerbaijan {
+      top: 40.4432132964%;
+      left: 61.2802498048%;
+    }
+    .world-map__country.name--bahamas {
+      top: 50.2770083102%;
+      left: 24.5120999219%;
+    }
+    .world-map__country.name--bahrain {
+      top: 49.3074792244%;
+      left: 61.9828259173%;
+    }
+    .world-map__country.name--bangladesh {
+      top: 50.9695290859%;
+      left: 72.5995316159%;
+    }
+    .world-map__country.name--barbados {
+      top: 56.648199446%;
+      left: 29.1959406714%;
+    }
+    .world-map__country.name--belarus {
+      top: 30.8864265928%;
+      left: 55.8157689305%;
+    }
+    .world-map__country.name--belgium {
+      top: 32.9639889197%;
+      left: 49.6487119438%;
+    }
+    .world-map__country.name--belize {
+      top: 54.7091412742%;
+      left: 21.6237314598%;
+    }
+    .world-map__country.name--benin {
+      top: 58.864265928%;
+      left: 49.0241998439%;
+    }
+    .world-map__country.name--bhutan {
+      top: 48.7534626039%;
+      left: 72.7556596409%;
+    }
+    .world-map__country.name--bolivia {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--bosnia-and-herzegovina {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--botswana {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--brazil {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--bulgaria {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--burkina-faso {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--burundi {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--cape-verde {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--cambodia {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--cameroon {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--canada {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--central-african-republic {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--chad {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--chile {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--china {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--colombia {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--comoros {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--democratic-republic-of-congo {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--republic-of-the-congo {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--costa-rica {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--ivory-coast {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--croatia {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--cuba {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--cyprus {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--czech-republic {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--denmark {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--djibouti {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--dominica {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--dominican-republic {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--east-timor {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--ecuador {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--egypt {
+      top: 48.33795013850416%;
+      left: 56.28415300546448%;
+    }
+    .world-map__country.name--salvador {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--equatorial-guinea {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--eritrea {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--estonia {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--ethiopia {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--fiji {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--finland {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--france {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--gabon {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--gambia {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--georgia {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--germany {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--ghana {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--greece {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--grenada {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--guatemala {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--guinea {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--guinea-bissau {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--guyana {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--haiti {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--honduras {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--hungary {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--iceland {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--india {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--indonesia {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--iran {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--iraq {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--ireland {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--israel {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--italy {
+      top: 38.50415512465374%;
+      left: 51.83450429352069%;
+    }
+    .world-map__country.name--jamaica {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--japan {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--jordan {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--kazakhstan {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--kenya {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--kiribati {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--north-korea {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--south-korea {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--kosovo {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--kuwait {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--kyrgyzstan {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--laos {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--latvia {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--lebanon {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--lesotho {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--liberia {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--libya {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--liechtenstein {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--lithuania {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--luxembourg {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--republic-of-macedonia {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--madagascar {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--malawi {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--malaysia {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--maldives {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--mali {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--malta {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--marshall-island {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--mauritania {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--mauritius {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--mexico {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--micronesia {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--moldova {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--monaco {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--mongolia {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--montenegro {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--morocco {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--mozambique {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--myanmar {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--namibia {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--nauru {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--nepal {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--netherlands {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--new-zealand {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--nicaragua {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--niger {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--nigeria {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--norway {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--oman {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--pakistan {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--palau {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--panama {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--papua-new-guinea {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--paraguay {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--peru {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--philippines {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--republic-of-poland {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--portugal {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--qatar {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--romania {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--russia {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--rwanda {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--saint-kitts-and-nevis {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--st-lucia {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--st-vincent-and-the-grenadines {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--samoa {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--san-marino {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--sao-tome-and-principe {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--saudi-arabia {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--senegal {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--serbia {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--seychelles {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--sierra-leone {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--singapore {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--slovakia {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--slovenia {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--solomon-islands {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--somalia {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--south-africa {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--spain {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--sri-lanka {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--sudan {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--south-sudan {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--suriname {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--swaziland {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--sweden {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--switzerland {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--syria {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--taiwan {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--tajikistan {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--tanzania {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--thailand {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--togo {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--tonga {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--trinidad-and-tobago {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--tunisia {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--turkey {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--turkmenistan {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--tuvalu {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--uganda {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--ukraine {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--united-arab-emirates {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--united-kingdom {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--united-states-of-america {
+      top: 40.85872576177285%;
+      left: 18.96955503512881%;
+    }
+    .world-map__country.name--uruguay {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--uzbekistn {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--vanuatu {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--vatican-city {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--venezuela {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--vietnam {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--yemen {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--zambia {
+      top: 10.00%;
+      left: 00.00%;
+    }
+    .world-map__country.name--zimbabwe {
+      top: 10.00%;
+      left: 00.00%;
+    }

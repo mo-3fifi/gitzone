@@ -1,0 +1,2995 @@
+<!DOCTYPE html>
+<!-- fill language attributes -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>GitZone</title>
+    <!-- STYLE -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/css/bootstrap.front_en.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lateef" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/animation.css" />
+    <link rel="stylesheet" href="assets/css/gitzone.css" />
+    <!-- / STYLE -->
+  </head>
+  <body>
+    <!-- SECTION HEADER -->
+    <header>
+      <section class="layout">
+        <section class="section theme-solid" id="section--top-bar">
+          <section class="section__container">
+            <section class="box">
+              <div class="component--top-bar-items">
+                <div class="top-bar__item">
+                  <div class="component--select" select-component>
+                    <div class="select__icon"><i class="fas fa-globe-africa"></i></div>
+                    <div class="select__label" select-switcher>English</div>
+                    <div class="select__options">
+                      <div class="select__option" select-option="1">English</div>
+                      <div class="select__option" select-option="2">العربية</div>
+                    </div>
+                    <!-- <input type="hidden" select-value value=""> -->
+                    <select name="langauge" select-value>
+                      <option value="1"></option>
+                      <option value="2"></option>
+                    </select>
+                  </div>
+                </div>
+                <div class="top-bar__item">
+                  USD
+                </div>
+                <div class="top-bar__item">
+                  Free shiping for all orders of $ 150
+                </div>
+              </div>
+            </section>
+            <section class="box">
+              <div class="component--top-bar-items">
+                <div class="top-bar__item">
+                  <div class="component--social">
+                    <ul>
+                      <li><a href="#"><div class="social__icon"><i class="fab fa-facebook-f"></i></div></a></li>
+                      <li><a href="#"><div class="social__icon"><i class="fab fa-twitter"></i></div></a></li>
+                      <li><a href="#"><div class="social__icon"><i class="fab fa-google-plus-g"></i></div></a></li>
+                      <li><a href="#"><div class="social__icon"><i class="fab fa-youtube"></i></div></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="top-bar__item">
+                  <div class="component--user-options">
+                    <div class="user-options__title">
+                      Welcome Muhammad Ali
+                    </div>
+                    <div class="user-options__items">
+                      <div class="user-options__item">
+                        <a href="index.html">logout</a>
+                      </div>
+                      <div class="user-options__item">
+                        <a href="index.html">logout</a>
+                      </div>
+                      <div class="user-options__item">
+                        <a href="index.html">logout</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+        </section>
+        <section class="section theme-solid" id="section--header">
+          <section class="section__container">
+            <section class="box">
+              <div class="component--logo">
+                <a href="index.html"><img src="files/images/logo.png" alt=""></a>
+              </div>
+            </section>
+            <section class="box">
+              <div class="component--header-items">
+                <div class="header__item">
+                  <form action="#" class="component--search">
+                    <div class="search__items">
+                      <div class="search__item">
+                        <div class="component--select" select-component>
+                          <div class="select__label" select-switcher>All Categories</div>
+                          <div class="select__options">
+                            <div class="select__option" select-option="1">category 1</div>
+                            <div class="select__option" select-option="2">category 2</div>
+                          </div>
+                          <!-- <input type="hidden" select-value value=""> -->
+                          <select name="category" select-value>
+                            <option value="1"></option>
+                            <option value="2"></option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="search__item">
+                        <input type="text" placeholder="Type here...">
+                      </div>
+                      <div class="search__item">
+                        <button>
+                          <i class="fas fa-search"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="header__item">
+                  <div class="component--notifications">
+                    <div class="notification">
+                      <div class="notification__main">
+                        <a href="#">
+                          <div class="notification__icon"><i class="fas fa-heart"></i></div>
+                          <div class="notification__count">0</div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="notification">
+                      <div class="notification__main">
+                        <a href="#">
+                          <div class="notification__icon"><i class="fas fa-shopping-cart"></i></div>
+                          <div class="notification__count">0</div>
+                        </a>
+                      </div>
+                      <div class="notification__sub">
+                        <div>my cart</div>
+                        <div>total: <span class="notification__description--highlight">$0.00</span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+        </section>
+      </section>
+    </header>
+    <!-- / SECTION HEADER -->
+    <!-- SECTION NAV -->
+    <nav>
+      <section class="layout">
+        <section class="section theme-dark" id="section--nav">
+          <section class="section__container">
+            <section class="box">
+              <div class="components--categories-menu">
+                <div class="categories-menu__switch">
+                  <div class="icon__bars">
+                    <div class="icon__bar"></div>
+                    <div class="icon__bar"></div>
+                    <div class="icon__bar"></div>
+                  </div>
+                  <div>
+                    all department
+                  </div>
+                </div>
+                <div class="categories-menu__list">
+                  <div class="categories-menu__element"><a href="#">department 1</a></div>
+                  <div class="categories-menu__element"><a href="#">department 2</a></div>
+                  <div class="categories-menu__element"><a href="#">department 3</a></div>
+                  <div class="categories-menu__element"><a href="#">department 4</a></div>
+                </div>
+              </div>
+            </section>
+            <section class="box">
+              <div class="components--menu">
+                <ul>
+                  <li><a href="#">how it works</a></li>
+                  <li><a href="#">products</a></li>
+                  <li><a href="#">subscribtions</a></li>
+                  <li><a href="#">news</a></li>
+                  <li><a href="contect-us.html">contact us</a></li>
+                  <li><a href="#">help center</a></li>
+                </ul>
+              </div>
+            </section>
+          </section>
+        </section>
+      </section>
+    </nav>
+    <!-- / SECTION NAV -->
+    <!-- SECTION MAIN -->
+    <main>
+      <section class="layout">
+        <section class="section theme-solid">
+          <section class="section__container fluid">
+            <section class="box">
+              <div class="component--cover">
+                <div class="cover__image">
+                  <img src="files/images/inner-page__cover--primary.png" alt="">
+                </div>
+                <div class="cover__title">
+                  profile
+                </div>
+                <div class="cover__breadcrumb">
+                  <a href="#">home</a>
+                  <a href="#">profile</a>
+                </div>
+              </div>
+            </section>
+          </section>
+        </section>
+        <section class="section theme-light">
+          <section class="section__container">
+            <section class="box">
+              <div class="component--sections-links">
+                <ul>
+                  <li switcher-id="profile" switcher-box="0" switcher-group="sections-links">basic info</li>
+                  <li switcher-id="profile" switcher-box="1" switcher-group="sections-links">active orders</li>
+                  <li switcher-id="profile" switcher-box="2" switcher-group="sections-links" class="active">track orders</li>
+                  <li switcher-id="profile" switcher-box="3" switcher-group="sections-links">products</li>
+                  <li switcher-id="profile" switcher-box="4" switcher-group="sections-links">transaction</li>
+                  <li switcher-id="profile" switcher-box="5" switcher-group="sections-links">explore</li>
+                  <li switcher-id="profile" switcher-box="6" switcher-group="sections-links">countries guide</li>
+                  <li switcher-id="profile" switcher-box="7" switcher-group="sections-links">messages</li>
+                </ul>
+              </div>
+            </section>
+          </section>
+        </section>
+        <div class="component--switcher" id="profile">
+          <div class="switcher__boxes">
+            <div class="switcher__box">
+              <section class="section">
+                <section class="section__container">
+                  <section class="box">
+                    <div class="component--content-box">
+                      <div class="content-box__head">
+                        <div class="content-box__title">
+                          basic info
+                        </div>
+                      </div>
+                      <div class="content-box__body">
+                        <form action="#">
+                          <div class="component--form">
+                            <div class="form__section">
+                              <div class="form__box half">
+                                <div class="form__label">
+                                  first name
+                                </div>
+                                <div class="form__input">
+                                  <input type="text" placeholder="Enter your first name">
+                                </div>
+                              </div>
+                              <div class="form__box half">
+                                <div class="form__label">
+                                  last name
+                                </div>
+                                <div class="form__input">
+                                  <input type="text" placeholder="Enter your last name">
+                                </div>
+                              </div>
+                              <div class="form__box half">
+                                <div class="form__label">
+                                  e-mail
+                                </div>
+                                <div class="form__input">
+                                  <input type="email" placeholder="Enter your e-mail">
+                                </div>
+                              </div>
+                              <div class="form__box half">
+                                <div class="form__label">
+                                  mobile number
+                                </div>
+                                <div class="form__input">
+                                  <input type="text" placeholder="Enter your mobile number">
+                                </div>
+                              </div>
+                              <div class="form__box half">
+                                <div class="form__label">
+                                  password
+                                </div>
+                                <div class="form__input">
+                                  <input type="password" placeholder="Enter your password">
+                                </div>
+                              </div>
+                              <div class="form__box half">
+                                <div class="form__label">
+                                  repeat password
+                                </div>
+                                <div class="form__input">
+                                  <input type="password" placeholder="Repeat your password">
+                                </div>
+                              </div>
+                              <div class="form__box half">
+                                <div class="form__label">
+                                  country
+                                </div>
+                                <div class="form__input">
+                                  <input type="text" placeholder="Enter your country">
+                                </div>
+                              </div>
+                              <div class="form__box half">
+                                <div class="form__label">
+                                  city
+                                </div>
+                                <div class="form__input">
+                                  <select name="" id="">
+                                    <option value="">city</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                            <hr>
+                            <div class="form__section">
+                              <div class="form__box half">
+                                <div class="form__label">
+                                  company name
+                                </div>
+                                <div class="form__input">
+                                  <input type="text" placeholder="Enter your company name">
+                                </div>
+                              </div>
+                              <div class="form__box half">
+                                <div class="form__label">
+                                  prefered store name
+                                </div>
+                                <div class="form__input">
+                                  <input type="text" placeholder="Enter your prefered store name">
+                                </div>
+                              </div>
+                              <div class="form__box">
+                                <div class="form__label">
+                                  company address
+                                </div>
+                                <div class="form__input">
+                                  <input type="text" placeholder="Enter your company address">
+                                </div>
+                              </div>
+                              <div class="form__box half">
+                                <div class="form__label">
+                                  company city
+                                </div>
+                                <div class="form__input">
+                                  <input type="text" placeholder="Enter your company city">
+                                </div>
+                              </div>
+                              <div class="form__box half">
+                                <div class="form__label">
+                                  company postal code
+                                </div>
+                                <div class="form__input">
+                                  <input type="text" placeholder="Enter your company postal code">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="form__section">
+                              <div class="form__box">
+                                <div class="form__input input--submit">
+                                  <input type="submit" value="update & save">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </section>
+                </section>
+              </section>
+            </div>
+            <div class="switcher__box">
+              <section class="section">
+                <section class="section__container">
+                  <section class="box">
+                    <div class="component--content-box">
+                      <div class="content-box__head">
+                        <div class="content-box__title">
+                          active orders
+                        </div>
+                      </div>
+                      <div class="content-box__body">
+                        <div class="orders">
+                          <div class="order">
+                            <div class="order__information">
+                              <div class="order__image">
+                                <img src="files/images/cashu.png" alt="">
+                              </div>
+                              <div class="order__details">
+                                <div class="order__title">order #12345: scaffolding machines</div>
+                                <div class="order__data">
+                                  <div>quantity: 100 units</div>
+                                  <div>payment method: LC</div>
+                                  <div>amount: $1000</div>
+                                  <div>status: open</div>
+                                  <div>order date: 2019/01/08</div>
+                                  <div>31511, Berox, NY City, USA</div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="order__options">
+                              <button class="order__option theme-solid">cancel</button>
+                              <button class="order__option">track</button>
+                              <select name="" class="order__option" id="">
+                                <option value="0" hidden selected>status</option>
+                                <option value="1">shipped</option>
+                                <option value="2">delivered</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="order">
+                            <div class="order__information">
+                              <div class="order__image">
+                                <img src="files/images/cashu.png" alt="">
+                              </div>
+                              <div class="order__details">
+                                <div class="order__title">order #12345: scaffolding machines</div>
+                                <div class="order__data">
+                                  <div>quantity: 100 units</div>
+                                  <div>payment method: LC</div>
+                                  <div>amount: $1000</div>
+                                  <div>status: open</div>
+                                  <div>order date: 2019/01/08</div>
+                                  <div>31511, Berox, NY City, USA</div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="order__options">
+                              <div class="order__option theme-solid">
+                                <a href="#">cancel</a>
+                              </div>
+                              <div class="order__option theme-light">
+                                <a href="#">waiting for approval</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="order">
+                            <div class="order__information">
+                              <div class="order__image">
+                                <img src="files/images/cashu.png" alt="">
+                              </div>
+                              <div class="order__details">
+                                <div class="order__title">order #12345: scaffolding machines</div>
+                                <div class="order__data">
+                                  <div>quantity: 100 units</div>
+                                  <div>payment method: LC</div>
+                                  <div>amount: $1000</div>
+                                  <div>status: open</div>
+                                  <div>order date: 2019/01/08</div>
+                                  <div>31511, Berox, NY City, USA</div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="order__options">
+                              <div class="order__option theme-solid">
+                                <a href="#">cancel</a>
+                              </div>
+                              <div class="order__option">
+                                <a href="#">track</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="order">
+                            <div class="order__information">
+                              <div class="order__image">
+                                <img src="files/images/cashu.png" alt="">
+                              </div>
+                              <div class="order__details">
+                                <div class="order__title">order #12345: scaffolding machines</div>
+                                <div class="order__data">
+                                  <div>quantity: 100 units</div>
+                                  <div>payment method: LC</div>
+                                  <div>amount: $1000</div>
+                                  <div>status: open</div>
+                                  <div>order date: 2019/01/08</div>
+                                  <div>31511, Berox, NY City, USA</div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="order__options">
+                              <div class="order__option theme-solid">
+                                <a href="#">cancel</a>
+                              </div>
+                              <div class="order__option">
+                                <a href="#">track</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </section>
+              </section>
+            </div>
+            <div class="switcher__box active">
+              <section class="section">
+                <section class="section__container">
+                  <section class="box">
+                    <div class="component--content-box">
+                      <div class="content-box__head">
+                        <div class="content-box__title">
+                          track orders
+                        </div>
+                      </div>
+                      <div class="content-box__body">
+                        <div class="orders theme-boxed">
+                          <div class="order">
+                            <div class="order__information">
+                              <div class="order__image">
+                                <img src="files/images/cashu.png" alt="">
+                              </div>
+                              <div class="order__details">
+                                <div class="order__title">order #12345: scaffolding machines</div>
+                                <div class="order__data">
+                                  <div>quantity: 100 units</div>
+                                  <div>payment method: LC</div>
+                                  <div>amount: $1000</div>
+                                  <div>status: open</div>
+                                  <div>order date: 2019/01/08</div>
+                                  <div>31511, Berox, NY City, USA</div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="order__steps">
+                              <div class="order__step">
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                              <div class="order__step">
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                              <div class="order__step">
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                              <div class="order__step">
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                              <div class="order__step active">
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                            </div>
+                            <div class="order__options">
+                              <button class="order__option theme-solid">cancel</button>
+                              <button class="order__option">track</button>
+                              <select name="" class="order__option" id="">
+                                <option value="0" hidden selected>status</option>
+                                <option value="1">shipped</option>
+                                <option value="2">delivered</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="order">
+                            <div class="order__information">
+                              <div class="order__image">
+                                <img src="files/images/cashu.png" alt="">
+                              </div>
+                              <div class="order__details">
+                                <div class="order__title">order #12345: scaffolding machines</div>
+                                <div class="order__data">
+                                  <div>quantity: 100 units</div>
+                                  <div>payment method: LC</div>
+                                  <div>amount: $1000</div>
+                                  <div>status: open</div>
+                                  <div>order date: 2019/01/08</div>
+                                  <div>31511, Berox, NY City, USA</div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="order__steps">
+                              <div class="order__step">
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                              <div class="order__step">
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                              <div class="order__step">
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                              <div class="order__step active">
+                                <div class="order__step__level" style="width: 100%"></div>
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                              <div class="order__step">
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                            </div>
+                            <div class="order__options">
+                              <div class="order__option theme-solid">
+                                <a href="#">cancel</a>
+                              </div>
+                              <div class="order__option theme-light">
+                                <a href="#">waiting for approval</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="order">
+                            <div class="order__information">
+                              <div class="order__image">
+                                <img src="files/images/cashu.png" alt="">
+                              </div>
+                              <div class="order__details">
+                                <div class="order__title">order #12345: scaffolding machines</div>
+                                <div class="order__data">
+                                  <div>quantity: 100 units</div>
+                                  <div>payment method: LC</div>
+                                  <div>amount: $1000</div>
+                                  <div>status: open</div>
+                                  <div>order date: 2019/01/08</div>
+                                  <div>31511, Berox, NY City, USA</div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="order__steps">
+                              <div class="order__step">
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                              <div class="order__step">
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                              <div class="order__step active">
+                                <div class="order__step__level" style="width: 60%"></div>
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                              <div class="order__step">
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                              <div class="order__step">
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                            </div>
+                            <div class="order__options">
+                              <div class="order__option theme-solid">
+                                <a href="#">cancel</a>
+                              </div>
+                              <div class="order__option">
+                                <a href="#">track</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="order">
+                            <div class="order__information">
+                              <div class="order__image">
+                                <img src="files/images/cashu.png" alt="">
+                              </div>
+                              <div class="order__details">
+                                <div class="order__title">order #12345: scaffolding machines</div>
+                                <div class="order__data">
+                                  <div>quantity: 100 units</div>
+                                  <div>payment method: LC</div>
+                                  <div>amount: $1000</div>
+                                  <div>status: open</div>
+                                  <div>order date: 2019/01/08</div>
+                                  <div>31511, Berox, NY City, USA</div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="order__steps">
+                              <div class="order__step">
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                              <div class="order__step active">
+                                <div class="order__step__level" style="width: 20%"></div>
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                              <div class="order__step">
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                              <div class="order__step">
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                              <div class="order__step">
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                            </div>
+                            <div class="order__options">
+                              <div class="order__option theme-solid">
+                                <a href="#">cancel</a>
+                              </div>
+                              <div class="order__option">
+                                <a href="#">track</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="order">
+                            <div class="order__information">
+                              <div class="order__image">
+                                <img src="files/images/cashu.png" alt="">
+                              </div>
+                              <div class="order__details">
+                                <div class="order__title">order #12345: scaffolding machines</div>
+                                <div class="order__data">
+                                  <div>quantity: 100 units</div>
+                                  <div>payment method: LC</div>
+                                  <div>amount: $1000</div>
+                                  <div>status: open</div>
+                                  <div>order date: 2019/01/08</div>
+                                  <div>31511, Berox, NY City, USA</div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="order__steps">
+                              <div class="order__step active">
+                                <div class="order__step__level" style="width: 40%"></div>
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                              <div class="order__step">
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                              <div class="order__step">
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                              <div class="order__step">
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                              <div class="order__step">
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                            </div>
+                            <div class="order__options">
+                              <div class="order__option theme-solid">
+                                <a href="#">cancel</a>
+                              </div>
+                              <div class="order__option">
+                                <a href="#">track</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="order">
+                            <div class="order__information">
+                              <div class="order__image">
+                                <img src="files/images/cashu.png" alt="">
+                              </div>
+                              <div class="order__details">
+                                <div class="order__title">order #12345: scaffolding machines</div>
+                                <div class="order__data">
+                                  <div>quantity: 100 units</div>
+                                  <div>payment method: LC</div>
+                                  <div>amount: $1000</div>
+                                  <div>status: open</div>
+                                  <div>order date: 2019/01/08</div>
+                                  <div>31511, Berox, NY City, USA</div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="order__steps">
+                              <div class="order__step">
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                              <div class="order__step">
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                              <div class="order__step">
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                              <div class="order__step">
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                              <div class="order__step">
+                                <div class="order__step__mark"></div>
+                                <div class="order__step__name">name</div>
+                              </div>
+                            </div>
+                            <div class="order__options">
+                              <div class="order__option theme-solid">
+                                <a href="#">cancel</a>
+                              </div>
+                              <div class="order__option">
+                                <a href="#">track</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </section>
+              </section>
+            </div>
+            <div class="switcher__box">
+              <section class="section">
+                <section class="section__container">
+                  <section class="box">
+                    <form action="#">
+                      <div class="component--content-box">
+                        <div class="content-box__head">
+                          <div class="content-box__title">
+                            products
+                          </div>
+                        </div>
+                      </div>
+                      <div class="component--collapser">
+                        <div class="collapser__boxes">
+                          <div class="collapser__box">
+                            <div class="collapser__head">
+                              <div class="collapser__title">
+                                product name
+                              </div>
+                              <div class="collapser__options">
+                                <div class="collapser__switcher"></div>
+                              </div>
+                            </div>
+                            <div class="collapser__body">
+                              <div class="component--form">
+                                <div class="form__section">
+                                  <div class="form__box half">
+                                    <div class="form__label">
+                                      product name
+                                    </div>
+                                    <div class="form__input">
+                                      <input type="text" placeholder="Enter your product name">
+                                    </div>
+                                  </div>
+                                  <div class="form__box half double">
+                                    <div class="form__label">
+                                      product category
+                                    </div>
+                                    <div class="form__input">
+                                      <div class="input__categories">
+                                        <div class="categories__item">
+                                          <input type="checkbox">
+                                          <label for="">category 1</label>
+                                        </div>
+                                        <div class="categories__list">
+                                          <div class="categories__list__title">
+                                            category 2
+                                          </div>
+                                          <div class="categories__list__items">
+                                            <div class="categories__item">
+                                              <input type="checkbox">
+                                              <label for="">category 2.1</label>
+                                            </div>
+                                            <div class="categories__list">
+                                              <div class="categories__list__title">
+                                                category 2.2
+                                              </div>
+                                              <div class="categories__list__items">
+                                                  <div class="categories__item">
+                                                    <input type="checkbox">
+                                                    <label for="">category 2.2.1</label>
+                                                  </div>
+                                              </div>
+                                              <div class="categories__list__items">
+                                                  <div class="categories__item">
+                                                    <input type="checkbox">
+                                                    <label for="">category 2.2.2</label>
+                                                  </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="categories__item">
+                                            <input type="checkbox">
+                                            <label for="">category 3</label>
+                                          </div>
+                                          <div class="categories__list">
+                                            <div class="categories__list__title">
+                                              category 4
+                                            </div>
+                                            <div class="categories__list__items">
+                                              <div class="categories__list">
+                                                <div class="categories__list__title">
+                                                  category 4.1
+                                                </div>
+                                                <div class="categories__list__items">
+                                                  <div class="categories__list">
+                                                    <div class="categories__list__title">
+                                                      category 4.1.1
+                                                    </div>
+                                                    <div class="categories__list__items">
+                                                      <div class="categories__item">
+                                                        <input type="checkbox">
+                                                        <label for="">category 4.1.1.1</label>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="categories__item">
+                                                <input type="checkbox">
+                                                <label for="">category 4.2</label>
+                                              </div>
+                                              <div class="categories__item">
+                                                <input type="checkbox">
+                                                <label for="">category 4.3</label>
+                                              </div>
+                                              <div class="categories__item">
+                                                <input type="checkbox">
+                                                <label for="">category 4.4</label>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="form__box half">
+                                    <div class="form__label">
+                                      product description
+                                    </div>
+                                    <div class="form__input">
+                                      <textarea placeholder="Enter your product description"></textarea>
+                                    </div>
+                                  </div>
+                                  <div class="form__box half">
+                                    <div class="form__label">
+                                      product company
+                                    </div>
+                                    <div class="form__input">
+                                      <input type="text" placeholder="Enter your product company">
+                                    </div>
+                                  </div>
+                                  <div class="form__box half">
+                                    <div class="form__label">
+                                      company website
+                                    </div>
+                                    <div class="form__input">
+                                      <input type="text" placeholder="Enter your company website">
+                                    </div>
+                                  </div>
+                                  <div class="form__box">
+                                    <div class="form__label">
+                                      company description
+                                    </div>
+                                    <div class="form__input">
+                                      <textarea placeholder="Enter your company description"></textarea>
+                                    </div>
+                                  </div>
+                                  <div class="form__box half">
+                                    <div class="form__label">
+                                      product price
+                                    </div>
+                                    <div class="form__input">
+                                      <input type="text" placeholder="Enter your product price">
+                                    </div>
+                                  </div>
+                                  <div class="form__box half">
+                                    <div class="form__label">
+                                      shipping days
+                                    </div>
+                                    <div class="form__input">
+                                      <input type="text" placeholder="Enter your shipping days">
+                                    </div>
+                                  </div>
+                                  <div class="form__box half">
+                                    <div class="form__label">
+                                      product features
+                                    </div>
+                                    <div class="form__input">
+                                      <input type="text" placeholder="Enter your product features">
+                                    </div>
+                                  </div>
+                                  <div class="form__box half">
+                                    <div class="form__label">
+                                      product offers
+                                    </div>
+                                    <div class="form__input">
+                                      <input type="text" placeholder="Enter your product offers">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="component--content-box">
+                        <div class="content-box__body">
+                          <div class="component--form">
+                            <div class="form__section">
+                              <div class="form__box half">
+                                <div class="form__input">
+                                  <input type="button" value="add another product">
+                                </div>
+                              </div>
+                              <div class="form__box half">
+                                <div class="form__input">
+                                  <input type="submit" value="save">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </section>
+                </section>
+              </section>
+            </div>
+            <div class="switcher__box">
+              <section class="section">
+                <section class="section__container">
+                  <section class="box">
+                    <div class="component--content-box">
+                      <div class="content-box__head">
+                        <div class="content-box__title">
+                          financial transaction
+                        </div>
+                      </div>
+                      <div class="content-box__body">
+                        <div class="component--transaction">
+                          <table>
+                            <thead>
+                              <tr>
+                                <th>REF</th>
+                                <th>Order ID</th>
+                                <th>Amount</th>
+                                <th>Date</th>
+                                <th>Type</th>
+                                <th>Actions</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>3424</td>
+                                <td>44334</td>
+                                <td>$6,250</td>
+                                <td>2017/6/25</td>
+                                <td>LC</td>
+                                <td>inquire</td>
+                              </tr>
+                              <tr>
+                                <td>3424</td>
+                                <td>44334</td>
+                                <td>$6,250</td>
+                                <td>2017/6/25</td>
+                                <td>LC</td>
+                                <td>inquire</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="component--content-box">
+                      <div class="content-box__head">
+                        <div class="content-box__title">
+                          payment method
+                        </div>
+                      </div>
+                      <div class="content-box__body">
+                        <form action="#">
+                          <div class="component--form">
+                            <div class="form__section">
+                              <div class="form__box">
+                                <div class="form__cards">
+                                  <div class="form__card">
+                                    <div class="form__card__input">
+                                      <input type="checkbox">
+                                    </div>
+                                    <div class="form__card__details">
+                                      <div class="form__card__title">
+                                        Credit Card
+                                      </div>
+                                      <div class="form__card__description">
+                                        Online payment usually is the transaction that results in transfer of monetary funds from the customer bank or credit card account to your bank account
+                                      </div>
+                                    </div>
+                                    <div class="form__card__image">
+                                      <img src="files/images/credit-card.jpeg" alt="">
+                                    </div>
+                                  </div>
+                                  <div class="form__card">
+                                    <div class="form__card__input">
+                                      <input type="checkbox">
+                                    </div>
+                                    <div class="form__card__details">
+                                      <div class="form__card__title">
+                                        Cash on Delivery (COD)
+                                      </div>
+                                      <div class="form__card__description">
+                                        Online payment usually is the transaction that results in transfer of monetary funds from the customer bank or credit card account to your bank account
+                                      </div>
+                                    </div>
+                                    <div class="form__card__image">
+                                      <img src="files/images/cod.jpg" alt="">
+                                    </div>
+                                  </div>
+                                  <div class="form__card">
+                                    <div class="form__card__input">
+                                      <input type="checkbox">
+                                    </div>
+                                    <div class="form__card__details">
+                                      <div class="form__card__title">
+                                        PayPal
+                                      </div>
+                                      <div class="form__card__description">
+                                        Online payment usually is the transaction that results in transfer of monetary funds from the customer bank or credit card account to your bank account
+                                      </div>
+                                    </div>
+                                    <div class="form__card__image">
+                                      <img src="files/images/paypal.png" alt="">
+                                    </div>
+                                  </div>
+                                  <div class="form__card">
+                                    <div class="form__card__input">
+                                      <input type="checkbox">
+                                    </div>
+                                    <div class="form__card__details">
+                                      <div class="form__card__title">
+                                        CASHU
+                                      </div>
+                                      <div class="form__card__description">
+                                        Online payment usually is the transaction that results in transfer of monetary funds from the customer bank or credit card account to your bank account
+                                      </div>
+                                    </div>
+                                    <div class="form__card__image">
+                                      <img src="files/images/cashu.png" alt="">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="form__box">
+                                <div class="form__input input--submit">
+                                  <input type="submit" value="save">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </section>
+                </section>
+              </section>
+            </div>
+            <div class="switcher__box">
+              <section class="section">
+                <section class="section__container">
+                  <section class="box">
+                    <div class="component--content-box">
+                      <div class="content-box__body">
+                        <div class="component--exporters">
+                          <form action="#">
+                            <div class="exporters__filters">
+                              <div class="exporters__filter">
+                                <div class="exporters__filter__title">
+                                  country
+                                </div>
+                                <div class="exporters__filter__item">
+                                  <div class="component--select" select-component>
+                                    <div class="select__label" select-switcher>egypt</div>
+                                    <div class="select__options">
+                                      <div class="select__option" select-option="eg">egypt</div>
+                                    </div>
+                                    <select name="country" select-value>
+                                      <option value="eg"></option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="exporters__filter__note">
+                                  38 exporters found
+                                </div>
+                              </div>
+                              <div class="exporters__filter">
+                                <div class="exporters__filter__title">
+                                    category
+                                </div>
+                                <div class="exporters__filter__item">
+                                  <div class="component--select" select-component>
+                                    <div class="select__label" select-switcher>technology</div>
+                                    <div class="select__options">
+                                      <div class="select__option" select-option="technology">technology</div>
+                                    </div>
+                                    <select name="category" select-value>
+                                      <option value="technology"></option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                          <div class="exporters">
+                            <div class="exporter">
+                              <div class="information theme--upper">
+                                <div class="record theme--highlighted">
+                                  textile manufacturing
+                                </div>
+                                <div class="record">
+                                  Egypt
+                                </div>
+                                <div class="record">
+                                  Clothes and Blankets
+                                </div>
+                              </div>
+                              <div class="information theme--lower">
+                                <div class="record theme--titled">
+                                  <div class="title">
+                                    total sales:
+                                  </div>
+                                  <div class="value">
+                                    $33.9
+                                  </div>
+                                </div>
+                                <div class="record theme--titled">
+                                  <div class="title">
+                                    rating
+                                  </div>
+                                  <div class="value">
+                                    <div class="exporter__rating">
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star active"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="buttons">
+                                <div class="button"><a href="#">inquire</a></div>
+                              </div>
+                            </div>
+                            <div class="exporter">
+                              <div class="information theme--upper">
+                                <div class="record theme--highlighted">
+                                  textile manufacturing
+                                </div>
+                                <div class="record">
+                                  Egypt
+                                </div>
+                                <div class="record">
+                                  Clothes and Blankets
+                                </div>
+                              </div>
+                              <div class="information theme--lower">
+                                <div class="record theme--titled">
+                                  <div class="title">
+                                    total sales:
+                                  </div>
+                                  <div class="value">
+                                    $33.9
+                                  </div>
+                                </div>
+                                <div class="record theme--titled">
+                                  <div class="title">
+                                    rating
+                                  </div>
+                                  <div class="value">
+                                    <div class="exporter__rating">
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star active"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="buttons">
+                                <div class="button"><a href="#">inquire</a></div>
+                              </div>
+                            </div>
+                            <div class="exporter">
+                              <div class="information theme--upper">
+                                <div class="record theme--highlighted">
+                                  textile manufacturing
+                                </div>
+                                <div class="record">
+                                  Egypt
+                                </div>
+                                <div class="record">
+                                  Clothes and Blankets
+                                </div>
+                              </div>
+                              <div class="information theme--lower">
+                                <div class="record theme--titled">
+                                  <div class="title">
+                                    total sales:
+                                  </div>
+                                  <div class="value">
+                                    $33.9
+                                  </div>
+                                </div>
+                                <div class="record theme--titled">
+                                  <div class="title">
+                                    rating
+                                  </div>
+                                  <div class="value">
+                                    <div class="exporter__rating">
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star active"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="buttons">
+                                <div class="button"><a href="#">inquire</a></div>
+                              </div>
+                            </div>
+                            <div class="exporter">
+                              <div class="information theme--upper">
+                                <div class="record theme--highlighted">
+                                  textile manufacturing
+                                </div>
+                                <div class="record">
+                                  Egypt
+                                </div>
+                                <div class="record">
+                                  Clothes and Blankets
+                                </div>
+                              </div>
+                              <div class="information theme--lower">
+                                <div class="record theme--titled">
+                                  <div class="title">
+                                    total sales:
+                                  </div>
+                                  <div class="value">
+                                    $33.9
+                                  </div>
+                                </div>
+                                <div class="record theme--titled">
+                                  <div class="title">
+                                    rating
+                                  </div>
+                                  <div class="value">
+                                    <div class="exporter__rating">
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star active"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="buttons">
+                                <div class="button"><a href="#">inquire</a></div>
+                              </div>
+                            </div>
+                            <div class="exporter">
+                              <div class="information theme--upper">
+                                <div class="record theme--highlighted">
+                                  textile manufacturing
+                                </div>
+                                <div class="record">
+                                  Egypt
+                                </div>
+                                <div class="record">
+                                  Clothes and Blankets
+                                </div>
+                              </div>
+                              <div class="information theme--lower">
+                                <div class="record theme--titled">
+                                  <div class="title">
+                                    total sales:
+                                  </div>
+                                  <div class="value">
+                                    $33.9
+                                  </div>
+                                </div>
+                                <div class="record theme--titled">
+                                  <div class="title">
+                                    rating
+                                  </div>
+                                  <div class="value">
+                                    <div class="exporter__rating">
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star active"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="buttons">
+                                <div class="button"><a href="#">inquire</a></div>
+                              </div>
+                            </div>
+                            <div class="exporter">
+                              <div class="information theme--upper">
+                                <div class="record theme--highlighted">
+                                  textile manufacturing
+                                </div>
+                                <div class="record">
+                                  Egypt
+                                </div>
+                                <div class="record">
+                                  Clothes and Blankets
+                                </div>
+                              </div>
+                              <div class="information theme--lower">
+                                <div class="record theme--titled">
+                                  <div class="title">
+                                    total sales:
+                                  </div>
+                                  <div class="value">
+                                    $33.9
+                                  </div>
+                                </div>
+                                <div class="record theme--titled">
+                                  <div class="title">
+                                    rating
+                                  </div>
+                                  <div class="value">
+                                    <div class="exporter__rating">
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star active"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="buttons">
+                                <div class="button"><a href="#">inquire</a></div>
+                              </div>
+                            </div>
+                            <div class="exporter">
+                              <div class="information theme--upper">
+                                <div class="record theme--highlighted">
+                                  textile manufacturing
+                                </div>
+                                <div class="record">
+                                  Egypt
+                                </div>
+                                <div class="record">
+                                  Clothes and Blankets
+                                </div>
+                              </div>
+                              <div class="information theme--lower">
+                                <div class="record theme--titled">
+                                  <div class="title">
+                                    total sales:
+                                  </div>
+                                  <div class="value">
+                                    $33.9
+                                  </div>
+                                </div>
+                                <div class="record theme--titled">
+                                  <div class="title">
+                                    rating
+                                  </div>
+                                  <div class="value">
+                                    <div class="exporter__rating">
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star active"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="buttons">
+                                <div class="button"><a href="#">inquire</a></div>
+                              </div>
+                            </div>
+                            <div class="exporter">
+                              <div class="information theme--upper">
+                                <div class="record theme--highlighted">
+                                  textile manufacturing
+                                </div>
+                                <div class="record">
+                                  Egypt
+                                </div>
+                                <div class="record">
+                                  Clothes and Blankets
+                                </div>
+                              </div>
+                              <div class="information theme--lower">
+                                <div class="record theme--titled">
+                                  <div class="title">
+                                    total sales:
+                                  </div>
+                                  <div class="value">
+                                    $33.9
+                                  </div>
+                                </div>
+                                <div class="record theme--titled">
+                                  <div class="title">
+                                    rating
+                                  </div>
+                                  <div class="value">
+                                    <div class="exporter__rating">
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star active"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="buttons">
+                                <div class="button"><a href="#">inquire</a></div>
+                              </div>
+                            </div>
+                            <div class="exporter">
+                              <div class="information theme--upper">
+                                <div class="record theme--highlighted">
+                                  textile manufacturing
+                                </div>
+                                <div class="record">
+                                  Egypt
+                                </div>
+                                <div class="record">
+                                  Clothes and Blankets
+                                </div>
+                              </div>
+                              <div class="information theme--lower">
+                                <div class="record theme--titled">
+                                  <div class="title">
+                                    total sales:
+                                  </div>
+                                  <div class="value">
+                                    $33.9
+                                  </div>
+                                </div>
+                                <div class="record theme--titled">
+                                  <div class="title">
+                                    rating
+                                  </div>
+                                  <div class="value">
+                                    <div class="exporter__rating">
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star active"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="buttons">
+                                <div class="button"><a href="#">inquire</a></div>
+                              </div>
+                            </div>
+                            <div class="exporter">
+                              <div class="information theme--upper">
+                                <div class="record theme--highlighted">
+                                  textile manufacturing
+                                </div>
+                                <div class="record">
+                                  Egypt
+                                </div>
+                                <div class="record">
+                                  Clothes and Blankets
+                                </div>
+                              </div>
+                              <div class="information theme--lower">
+                                <div class="record theme--titled">
+                                  <div class="title">
+                                    total sales:
+                                  </div>
+                                  <div class="value">
+                                    $33.9
+                                  </div>
+                                </div>
+                                <div class="record theme--titled">
+                                  <div class="title">
+                                    rating
+                                  </div>
+                                  <div class="value">
+                                    <div class="exporter__rating">
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star active"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="buttons">
+                                <div class="button"><a href="#">inquire</a></div>
+                              </div>
+                            </div>
+                            <div class="exporter">
+                              <div class="information theme--upper">
+                                <div class="record theme--highlighted">
+                                  textile manufacturing
+                                </div>
+                                <div class="record">
+                                  Egypt
+                                </div>
+                                <div class="record">
+                                  Clothes and Blankets
+                                </div>
+                              </div>
+                              <div class="information theme--lower">
+                                <div class="record theme--titled">
+                                  <div class="title">
+                                    total sales:
+                                  </div>
+                                  <div class="value">
+                                    $33.9
+                                  </div>
+                                </div>
+                                <div class="record theme--titled">
+                                  <div class="title">
+                                    rating
+                                  </div>
+                                  <div class="value">
+                                    <div class="exporter__rating">
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star active"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="buttons">
+                                <div class="button"><a href="#">inquire</a></div>
+                              </div>
+                            </div>
+                            <div class="exporter">
+                              <div class="information theme--upper">
+                                <div class="record theme--highlighted">
+                                  textile manufacturing
+                                </div>
+                                <div class="record">
+                                  Egypt
+                                </div>
+                                <div class="record">
+                                  Clothes and Blankets
+                                </div>
+                              </div>
+                              <div class="information theme--lower">
+                                <div class="record theme--titled">
+                                  <div class="title">
+                                    total sales:
+                                  </div>
+                                  <div class="value">
+                                    $33.9
+                                  </div>
+                                </div>
+                                <div class="record theme--titled">
+                                  <div class="title">
+                                    rating
+                                  </div>
+                                  <div class="value">
+                                    <div class="exporter__rating">
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star active"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="buttons">
+                                <div class="button"><a href="#">inquire</a></div>
+                              </div>
+                            </div>
+                            <div class="exporter">
+                              <div class="information theme--upper">
+                                <div class="record theme--highlighted">
+                                  textile manufacturing
+                                </div>
+                                <div class="record">
+                                  Egypt
+                                </div>
+                                <div class="record">
+                                  Clothes and Blankets
+                                </div>
+                              </div>
+                              <div class="information theme--lower">
+                                <div class="record theme--titled">
+                                  <div class="title">
+                                    total sales:
+                                  </div>
+                                  <div class="value">
+                                    $33.9
+                                  </div>
+                                </div>
+                                <div class="record theme--titled">
+                                  <div class="title">
+                                    rating
+                                  </div>
+                                  <div class="value">
+                                    <div class="exporter__rating">
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star active"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="buttons">
+                                <div class="button"><a href="#">inquire</a></div>
+                              </div>
+                            </div>
+                            <div class="exporter">
+                              <div class="information theme--upper">
+                                <div class="record theme--highlighted">
+                                  textile manufacturing
+                                </div>
+                                <div class="record">
+                                  Egypt
+                                </div>
+                                <div class="record">
+                                  Clothes and Blankets
+                                </div>
+                              </div>
+                              <div class="information theme--lower">
+                                <div class="record theme--titled">
+                                  <div class="title">
+                                    total sales:
+                                  </div>
+                                  <div class="value">
+                                    $33.9
+                                  </div>
+                                </div>
+                                <div class="record theme--titled">
+                                  <div class="title">
+                                    rating
+                                  </div>
+                                  <div class="value">
+                                    <div class="exporter__rating">
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star active"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                      <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="buttons">
+                                <div class="button"><a href="#">inquire</a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </section>
+              </section>
+            </div>
+            <div class="switcher__box">
+              <section class="section">
+                <section class="section__container">
+                  <section class="box">
+                    <div class="component--content-box">
+                      <div class="content-box__head">
+                        <div class="content-box__title">
+                          pick a country
+                        </div>
+                      </div>
+                      <div class="content-box__body">
+                        <div class="component--world-map">
+                          <div class="world-map__bg">
+                            <img src="files/images/world-map.png" alt="" />
+                          </div>
+                          <ul class="world-map__countries">
+                            <li switcher-id="countries" switcher-box="0" class="world-map__country" data-opportunities="25" style="top: 48.33795013850416%;left: 56.28415300546448%;">
+                              <div class="world-map__country__name">egypt</div>
+                              <div class="world-map__country__icon">
+                                <img src="files/images/flags/egypt.png" alt="" />
+                              </div>
+                            </li>
+                            <li switcher-id="countries" switcher-box="0" class="world-map__country" data-opportunities="60" style="top: 40.85872576177285%;left: 18.96955503512881%;">
+                              <div class="world-map__country__name">united states of america</div>
+                              <div class="world-map__country__icon">
+                                <img src="files/images/flags/united-states-of-america.png" alt="" />
+                              </div>
+                            </li>
+                          </ul>
+                          <div class="world-map__country-information">
+                            <div class="world-map__country-information__icon"></div>
+                            <div class="world-map__country-information__name"></div>
+                            <div class="world-map__country-information__opportunities"><span></span> opportunities</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </section>
+              </section>
+              <div class="component--switcher" id="countries">
+                <div class="switcher__boxes">
+                  <div class="switcher__box">
+                    <section class="section">
+                      <section class="section__container">
+                        <section class="box">
+                          <div class="component--content-box">
+                            <div class="content-box__head">
+                              <div class="content-box__title">
+                                about
+                              </div>
+                              <div class="content-box__options">
+                                <div class="component--country-switches">
+                                  <div class="country-switches">
+                                    <div switcher-id="countries" switcher-box="0" class="country-switch active">
+                                      about
+                                    </div>
+                                    <div switcher-id="countries" switcher-box="1" class="country-switch">
+                                      data
+                                    </div>
+                                    <div switcher-id="countries" switcher-box="2" class="country-switch">
+                                      opportunities
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                      </section>
+                    </section>
+                    <section class="section">
+                      <section class="section__container fluid">
+                        <section class="box">
+                          <div class="component--country-items theme--primary">
+                            <div class="country-items__container">
+                              <div class="country-item">
+                                <div class="component--country-profile">
+                                  <div class="country-profile__image">
+                                    <img src="files/images/cashu.png" alt="">
+                                  </div>
+                                  <div class="country-profile__description">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero beatae est commodi excepturi esse doloremque voluptatum maxime distinctio nobis, harum ducimus dolores ratione accusantium amet veritatis, incidunt temporibus quam in?</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quidem nemo libero accusamus mollitia, consequatur ex officiis veritatis eligendi nam nesciunt repudiandae a dignissimos ipsum iusto harum alias, vitae sequi.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, perspiciatis officiis maiores ratione iste alias. Maiores tempore quod cumque ratione fugit! Incidunt ad doloremque dicta fuga accusantium quasi cumque magnam.</p>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis fuga dignissimos obcaecati ea corrupti laborum ex quae tempore dolorem. Tempore aliquid distinctio, eligendi earum ipsa quos ducimus voluptatibus maiores accusantium?</p>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est facilis earum odit exercitationem. Ea ipsam suscipit explicabo esse, nobis molestiae architecto quis molestias illum et distinctio ducimus est provident impedit.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos velit sed dignissimos a dolore quae molestias debitis facere, molestiae quam odit eum quas provident reprehenderit quos facilis eius exercitationem error.</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="country-item">
+                                <div class="component--country-blocks">
+                                  <div class="country__block">
+                                    <div class="country__block__title">
+                                      stats
+                                    </div>
+                                    <div class="country__block__body">
+                                      <div class="component--country-state">
+                                        <div class="country-state__records">
+                                          <div class="country-state__record">
+                                            <div>GDP/Capita</div>
+                                            <div>3.6 Trilion</div>
+                                            <div class="theme--up">%3.08+</div>
+                                          </div>
+                                          <div class="country-state__record">
+                                            <div>GDP/Capita</div>
+                                            <div>3.6 Trilion</div>
+                                            <div class="theme--down">%3.08+</div>
+                                          </div>
+                                          <div class="country-state__record">
+                                            <div>GDP/Capita</div>
+                                            <div>3.6 Trilion</div>
+                                            <div class="theme--down">%3.08+</div>
+                                          </div>
+                                          <div class="country-state__record">
+                                            <div>GDP/Capita</div>
+                                            <div>3.6 Trilion</div>
+                                            <div class="theme--up">%3.08+</div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                      </section>
+                    </section>
+                  </div>
+                  <div class="switcher__box">
+                    <section class="section">
+                      <section class="section__container">
+                        <section class="box">
+                          <div class="component--content-box">
+                            <div class="content-box__head">
+                              <div class="content-box__title">
+                                data
+                              </div>
+                              <div class="content-box__options">
+                                <div class="component--country-switches">
+                                  <div class="country-switches">
+                                    <div switcher-id="countries" switcher-box="0" class="country-switch">
+                                      about
+                                    </div>
+                                    <div switcher-id="countries" switcher-box="1" class="country-switch active">
+                                      data
+                                    </div>
+                                    <div switcher-id="countries" switcher-box="2" class="country-switch">
+                                      opportunities
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                      </section>
+                    </section>
+                    <section class="section">
+                      <section class="section__container fluid">
+                        <section class="box">
+                          <div class="component--country-items theme--secondary">
+                            <div class="country-items__container">
+                              <div class="country-item">
+                                data
+                              </div>
+                              <div class="country-item">
+                                data
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                      </section>
+                    </section>
+                  </div>
+                  <div class="switcher__box active">
+                    <section class="section">
+                      <section class="section__container">
+                        <section class="box">
+                          <div class="component--content-box">
+                            <div class="content-box__head">
+                              <div class="content-box__title">
+                                opportunities
+                              </div>
+                              <div class="content-box__options">
+                                <div class="component--country-switches">
+                                  <div class="country-switches">
+                                    <div switcher-id="countries" switcher-box="0" class="country-switch">
+                                      about
+                                    </div>
+                                    <div switcher-id="countries" switcher-box="1" class="country-switch">
+                                      data
+                                    </div>
+                                    <div switcher-id="countries" switcher-box="2" class="country-switch active">
+                                      opportunities
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                      </section>
+                    </section>
+                    <section class="section">
+                      <section class="section__container fluid">
+                        <section class="box">
+                          <div class="component--country-items theme--secondary">
+                            <div class="country-items__container">
+                              <div class="country-item">
+                                <form action="#">
+                                  <div class="component--country-blocks">
+                                    <div class="country__block">
+                                        <div class="component--country-search">
+                                          <input type="text" placeholder="Type here...">
+                                          <i class="fas fa-search country-search__mark"></i>
+                                        </div>
+                                    </div>
+                                    <div class="country__block">
+                                      <div class="country__block__title">
+                                        categories
+                                      </div>
+                                      <div class="country__block__body">
+                                        <div class="component--country-categories">
+                                          <div class="country-categorie">
+                                            <input type="checkbox" >
+                                            <label> category name</label>
+                                          </div>
+                                          <div class="country-categorie">
+                                            <input type="checkbox" >
+                                            <label> category name</label>
+                                          </div>
+                                          <div class="country-categorie">
+                                            <input type="checkbox" >
+                                            <label> category name</label>
+                                          </div>
+                                          <div class="country-categorie">
+                                            <input type="checkbox" >
+                                            <label> category name</label>
+                                          </div>
+                                          <div class="country-categorie">
+                                            <input type="checkbox" >
+                                            <label> category name</label>
+                                          </div>
+                                          <div class="country-categorie">
+                                            <input type="checkbox" >
+                                            <label> category name</label>
+                                          </div>
+                                          <div class="country-categorie">
+                                            <input type="checkbox" >
+                                            <label> category name</label>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </form>
+                              </div>
+                              <div class="country-item">
+                                <div class="component--chart">
+                                  <div class="chart__title">
+                                    sales by industry
+                                  </div>
+                                  <div class="chart__area">
+                                    <div class="chart__rows">
+                                      <div class="chart__row"><div class="chart__row__name">50</div></div>
+                                      <div class="chart__row"></div>
+                                      <div class="chart__row"><div class="chart__row__name">40</div></div>
+                                      <div class="chart__row"></div>
+                                      <div class="chart__row"><div class="chart__row__name">30</div></div>
+                                      <div class="chart__row"></div>
+                                      <div class="chart__row"><div class="chart__row__name">20</div></div>
+                                      <div class="chart__row"></div>
+                                      <div class="chart__row"><div class="chart__row__name">10</div></div>
+                                      <div class="chart__row"></div>
+                                    </div>
+                                    <div class="chart__values">
+                                      <div class="chart__value" style="height: 80%;"><div class="chart__value__name">crystal</div></div>
+                                      <div class="chart__value" style="height: 60%;"><div class="chart__value__name">mining</div></div>
+                                      <div class="chart__value" style="height: 70%;"><div class="chart__value__name">cement</div></div>
+                                      <div class="chart__value" style="height: 40%;"><div class="chart__value__name">industry1</div></div>
+                                      <div class="chart__value" style="height: 30%;"><div class="chart__value__name">industry2</div></div>
+                                      <div class="chart__value" style="height: 50%;"><div class="chart__value__name">industry3</div></div>
+                                      <div class="chart__value" style="height: 75%;"><div class="chart__value__name">industry4</div></div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="component--exporters theme--row">
+                                  <div class="exporters">
+                                    <div class="exporter">
+                                      <div class="information theme--upper">
+                                        <div class="record theme--highlighted">
+                                          textile manufacturing
+                                        </div>
+                                        <div class="record">
+                                          Egypt
+                                        </div>
+                                        <div class="record">
+                                          Clothes and Blankets
+                                        </div>
+                                      </div>
+                                      <div class="information theme--lower">
+                                        <div class="record theme--titled">
+                                          <div class="title">
+                                            total sales:
+                                          </div>
+                                          <div class="value">
+                                            $33.9
+                                          </div>
+                                        </div>
+                                        <div class="record theme--titled">
+                                          <div class="title">
+                                            rating
+                                          </div>
+                                          <div class="value">
+                                            <div class="exporter__rating">
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star active"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="buttons">
+                                        <div class="button"><a href="#">inquire</a></div>
+                                      </div>
+                                    </div>
+                                    <div class="exporter">
+                                      <div class="information theme--upper">
+                                        <div class="record theme--highlighted">
+                                          textile manufacturing
+                                        </div>
+                                        <div class="record">
+                                          Egypt
+                                        </div>
+                                        <div class="record">
+                                          Clothes and Blankets
+                                        </div>
+                                      </div>
+                                      <div class="information theme--lower">
+                                        <div class="record theme--titled">
+                                          <div class="title">
+                                            total sales:
+                                          </div>
+                                          <div class="value">
+                                            $33.9
+                                          </div>
+                                        </div>
+                                        <div class="record theme--titled">
+                                          <div class="title">
+                                            rating
+                                          </div>
+                                          <div class="value">
+                                            <div class="exporter__rating">
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star active"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="buttons">
+                                        <div class="button"><a href="#">inquire</a></div>
+                                      </div>
+                                    </div>
+                                    <div class="exporter">
+                                      <div class="information theme--upper">
+                                        <div class="record theme--highlighted">
+                                          textile manufacturing
+                                        </div>
+                                        <div class="record">
+                                          Egypt
+                                        </div>
+                                        <div class="record">
+                                          Clothes and Blankets
+                                        </div>
+                                      </div>
+                                      <div class="information theme--lower">
+                                        <div class="record theme--titled">
+                                          <div class="title">
+                                            total sales:
+                                          </div>
+                                          <div class="value">
+                                            $33.9
+                                          </div>
+                                        </div>
+                                        <div class="record theme--titled">
+                                          <div class="title">
+                                            rating
+                                          </div>
+                                          <div class="value">
+                                            <div class="exporter__rating">
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star active"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="buttons">
+                                        <div class="button"><a href="#">inquire</a></div>
+                                      </div>
+                                    </div>
+                                    <div class="exporter">
+                                      <div class="information theme--upper">
+                                        <div class="record theme--highlighted">
+                                          textile manufacturing
+                                        </div>
+                                        <div class="record">
+                                          Egypt
+                                        </div>
+                                        <div class="record">
+                                          Clothes and Blankets
+                                        </div>
+                                      </div>
+                                      <div class="information theme--lower">
+                                        <div class="record theme--titled">
+                                          <div class="title">
+                                            total sales:
+                                          </div>
+                                          <div class="value">
+                                            $33.9
+                                          </div>
+                                        </div>
+                                        <div class="record theme--titled">
+                                          <div class="title">
+                                            rating
+                                          </div>
+                                          <div class="value">
+                                            <div class="exporter__rating">
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star active"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="buttons">
+                                        <div class="button"><a href="#">inquire</a></div>
+                                      </div>
+                                    </div>
+                                    <div class="exporter">
+                                      <div class="information theme--upper">
+                                        <div class="record theme--highlighted">
+                                          textile manufacturing
+                                        </div>
+                                        <div class="record">
+                                          Egypt
+                                        </div>
+                                        <div class="record">
+                                          Clothes and Blankets
+                                        </div>
+                                      </div>
+                                      <div class="information theme--lower">
+                                        <div class="record theme--titled">
+                                          <div class="title">
+                                            total sales:
+                                          </div>
+                                          <div class="value">
+                                            $33.9
+                                          </div>
+                                        </div>
+                                        <div class="record theme--titled">
+                                          <div class="title">
+                                            rating
+                                          </div>
+                                          <div class="value">
+                                            <div class="exporter__rating">
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star active"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="buttons">
+                                        <div class="button"><a href="#">inquire</a></div>
+                                      </div>
+                                    </div>
+                                    <div class="exporter">
+                                      <div class="information theme--upper">
+                                        <div class="record theme--highlighted">
+                                          textile manufacturing
+                                        </div>
+                                        <div class="record">
+                                          Egypt
+                                        </div>
+                                        <div class="record">
+                                          Clothes and Blankets
+                                        </div>
+                                      </div>
+                                      <div class="information theme--lower">
+                                        <div class="record theme--titled">
+                                          <div class="title">
+                                            total sales:
+                                          </div>
+                                          <div class="value">
+                                            $33.9
+                                          </div>
+                                        </div>
+                                        <div class="record theme--titled">
+                                          <div class="title">
+                                            rating
+                                          </div>
+                                          <div class="value">
+                                            <div class="exporter__rating">
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star active"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="buttons">
+                                        <div class="button"><a href="#">inquire</a></div>
+                                      </div>
+                                    </div>
+                                    <div class="exporter">
+                                      <div class="information theme--upper">
+                                        <div class="record theme--highlighted">
+                                          textile manufacturing
+                                        </div>
+                                        <div class="record">
+                                          Egypt
+                                        </div>
+                                        <div class="record">
+                                          Clothes and Blankets
+                                        </div>
+                                      </div>
+                                      <div class="information theme--lower">
+                                        <div class="record theme--titled">
+                                          <div class="title">
+                                            total sales:
+                                          </div>
+                                          <div class="value">
+                                            $33.9
+                                          </div>
+                                        </div>
+                                        <div class="record theme--titled">
+                                          <div class="title">
+                                            rating
+                                          </div>
+                                          <div class="value">
+                                            <div class="exporter__rating">
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star active"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="buttons">
+                                        <div class="button"><a href="#">inquire</a></div>
+                                      </div>
+                                    </div>
+                                    <div class="exporter">
+                                      <div class="information theme--upper">
+                                        <div class="record theme--highlighted">
+                                          textile manufacturing
+                                        </div>
+                                        <div class="record">
+                                          Egypt
+                                        </div>
+                                        <div class="record">
+                                          Clothes and Blankets
+                                        </div>
+                                      </div>
+                                      <div class="information theme--lower">
+                                        <div class="record theme--titled">
+                                          <div class="title">
+                                            total sales:
+                                          </div>
+                                          <div class="value">
+                                            $33.9
+                                          </div>
+                                        </div>
+                                        <div class="record theme--titled">
+                                          <div class="title">
+                                            rating
+                                          </div>
+                                          <div class="value">
+                                            <div class="exporter__rating">
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star active"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="buttons">
+                                        <div class="button"><a href="#">inquire</a></div>
+                                      </div>
+                                    </div>
+                                    <div class="exporter">
+                                      <div class="information theme--upper">
+                                        <div class="record theme--highlighted">
+                                          textile manufacturing
+                                        </div>
+                                        <div class="record">
+                                          Egypt
+                                        </div>
+                                        <div class="record">
+                                          Clothes and Blankets
+                                        </div>
+                                      </div>
+                                      <div class="information theme--lower">
+                                        <div class="record theme--titled">
+                                          <div class="title">
+                                            total sales:
+                                          </div>
+                                          <div class="value">
+                                            $33.9
+                                          </div>
+                                        </div>
+                                        <div class="record theme--titled">
+                                          <div class="title">
+                                            rating
+                                          </div>
+                                          <div class="value">
+                                            <div class="exporter__rating">
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star active"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="buttons">
+                                        <div class="button"><a href="#">inquire</a></div>
+                                      </div>
+                                    </div>
+                                    <div class="exporter">
+                                      <div class="information theme--upper">
+                                        <div class="record theme--highlighted">
+                                          textile manufacturing
+                                        </div>
+                                        <div class="record">
+                                          Egypt
+                                        </div>
+                                        <div class="record">
+                                          Clothes and Blankets
+                                        </div>
+                                      </div>
+                                      <div class="information theme--lower">
+                                        <div class="record theme--titled">
+                                          <div class="title">
+                                            total sales:
+                                          </div>
+                                          <div class="value">
+                                            $33.9
+                                          </div>
+                                        </div>
+                                        <div class="record theme--titled">
+                                          <div class="title">
+                                            rating
+                                          </div>
+                                          <div class="value">
+                                            <div class="exporter__rating">
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star active"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="buttons">
+                                        <div class="button"><a href="#">inquire</a></div>
+                                      </div>
+                                    </div>
+                                    <div class="exporter">
+                                      <div class="information theme--upper">
+                                        <div class="record theme--highlighted">
+                                          textile manufacturing
+                                        </div>
+                                        <div class="record">
+                                          Egypt
+                                        </div>
+                                        <div class="record">
+                                          Clothes and Blankets
+                                        </div>
+                                      </div>
+                                      <div class="information theme--lower">
+                                        <div class="record theme--titled">
+                                          <div class="title">
+                                            total sales:
+                                          </div>
+                                          <div class="value">
+                                            $33.9
+                                          </div>
+                                        </div>
+                                        <div class="record theme--titled">
+                                          <div class="title">
+                                            rating
+                                          </div>
+                                          <div class="value">
+                                            <div class="exporter__rating">
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star active"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="buttons">
+                                        <div class="button"><a href="#">inquire</a></div>
+                                      </div>
+                                    </div>
+                                    <div class="exporter">
+                                      <div class="information theme--upper">
+                                        <div class="record theme--highlighted">
+                                          textile manufacturing
+                                        </div>
+                                        <div class="record">
+                                          Egypt
+                                        </div>
+                                        <div class="record">
+                                          Clothes and Blankets
+                                        </div>
+                                      </div>
+                                      <div class="information theme--lower">
+                                        <div class="record theme--titled">
+                                          <div class="title">
+                                            total sales:
+                                          </div>
+                                          <div class="value">
+                                            $33.9
+                                          </div>
+                                        </div>
+                                        <div class="record theme--titled">
+                                          <div class="title">
+                                            rating
+                                          </div>
+                                          <div class="value">
+                                            <div class="exporter__rating">
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star active"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="buttons">
+                                        <div class="button"><a href="#">inquire</a></div>
+                                      </div>
+                                    </div>
+                                    <div class="exporter">
+                                      <div class="information theme--upper">
+                                        <div class="record theme--highlighted">
+                                          textile manufacturing
+                                        </div>
+                                        <div class="record">
+                                          Egypt
+                                        </div>
+                                        <div class="record">
+                                          Clothes and Blankets
+                                        </div>
+                                      </div>
+                                      <div class="information theme--lower">
+                                        <div class="record theme--titled">
+                                          <div class="title">
+                                            total sales:
+                                          </div>
+                                          <div class="value">
+                                            $33.9
+                                          </div>
+                                        </div>
+                                        <div class="record theme--titled">
+                                          <div class="title">
+                                            rating
+                                          </div>
+                                          <div class="value">
+                                            <div class="exporter__rating">
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star active"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="buttons">
+                                        <div class="button"><a href="#">inquire</a></div>
+                                      </div>
+                                    </div>
+                                    <div class="exporter">
+                                      <div class="information theme--upper">
+                                        <div class="record theme--highlighted">
+                                          textile manufacturing
+                                        </div>
+                                        <div class="record">
+                                          Egypt
+                                        </div>
+                                        <div class="record">
+                                          Clothes and Blankets
+                                        </div>
+                                      </div>
+                                      <div class="information theme--lower">
+                                        <div class="record theme--titled">
+                                          <div class="title">
+                                            total sales:
+                                          </div>
+                                          <div class="value">
+                                            $33.9
+                                          </div>
+                                        </div>
+                                        <div class="record theme--titled">
+                                          <div class="title">
+                                            rating
+                                          </div>
+                                          <div class="value">
+                                            <div class="exporter__rating">
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star active"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                              <div class="exporter__rating__star"><i class="fas fa-star"></i></div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="buttons">
+                                        <div class="button"><a href="#">inquire</a></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <a href="#" class="exporters__more">
+                                    <i class="fas fa-spinner"></i> load more
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                      </section>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="switcher__box">
+              <section class="section">
+                <section class="section__container">
+                  <section class="box">
+                    <div class="component--content-box">
+                      <div class="content-box__head">
+                        <div class="content-box__title">
+                          messages
+                        </div>
+                      </div>
+                      <div class="content-box__body">
+                        <div class="component--messages">
+                          <div class="messages-records">
+                            <div class="message-record active" switcher-id="message-details" switcher-box="0" switcher-group="messages-records">
+                              <div class="message-record__title">
+                                message title 1
+                              </div>
+                              <div class="message-record__description">
+                                message description 1
+                              </div>
+                              <div class="message-record__date">
+                                06/01/2019
+                              </div>
+                            </div>
+                            <div class="message-record" switcher-id="message-details" switcher-box="1" switcher-group="messages-records">
+                              <div class="message-record__title">
+                                message title 2
+                              </div>
+                              <div class="message-record__description">
+                                message description 2
+                              </div>
+                              <div class="message-record__date">
+                                06/01/2019
+                              </div>
+                            </div>
+                            <div class="message-record" switcher-id="message-details" switcher-box="2" switcher-group="messages-records">
+                              <div class="message-record__title">
+                                message title 3
+                              </div>
+                              <div class="message-record__description">
+                                message description 3
+                              </div>
+                              <div class="message-record__date">
+                                06/01/2019
+                              </div>
+                            </div>
+                          </div>
+                          <div class="message-details">
+                            <div class="component--switcher" id="message-details">
+                              <div class="switcher__boxes">
+                                <div class="switcher__box active">
+                                  <div class="messages">
+                                    <div class="message">
+                                      <div class="message__box">
+                                        <div class="message__owner">
+                                          <a href="#"><img src="files/images/cashu.png" alt=""></a>
+                                        </div>
+                                        <div class="message__text">
+                                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo blanditiis quisquam ducimus quis, fugiat reprehenderit consequatur hic cum sit! Nesciunt, magnam. Dignissimos iure vitae nobis ad voluptas odio itaque vel.
+                                        </div>
+                                      </div>
+                                      <div class="message__date">
+                                        06/01/2019 12:47 pm
+                                      </div>
+                                    </div>
+                                    <div class="message message--in">
+                                      <div class="message__box">
+                                        <div class="message__owner">
+                                          <a href="#"><img src="files/images/credit-card.jpeg" alt=""></a>
+                                        </div>
+                                        <div class="message__text">
+                                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo blanditiis quisquam ducimus quis, fugiat reprehenderit consequatur hic cum sit! Nesciunt, magnam. Dignissimos iure vitae nobis ad voluptas odio itaque vel.
+                                        </div>
+                                      </div>
+                                      <div class="message__date">
+                                        06/01/2019 12:47 pm
+                                      </div>
+                                    </div>
+                                    <div class="message">
+                                      <div class="message__box">
+                                        <div class="message__owner">
+                                          <a href="#"><img src="files/images/cashu.png" alt=""></a>
+                                        </div>
+                                        <div class="message__text">
+                                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo blanditiis quisquam ducimus quis, fugiat reprehenderit consequatur hic cum sit! Nesciunt, magnam. Dignissimos iure vitae nobis ad voluptas odio itaque vel.
+                                        </div>
+                                      </div>
+                                      <div class="message__date">
+                                        06/01/2019 12:47 pm
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <form action="#">
+                                    <div class="message-form">
+                                      <textarea class="message-form__input" name="" id="" rows="4"></textarea>
+                                      <input class="message-form__button" type="submit" value="send">
+                                    </div>
+                                  </form>
+                                </div>
+                                <div class="switcher__box">
+                                  <div class="messages">
+                                    <div class="message message--in">
+                                      <div class="message__box">
+                                        <div class="message__owner">
+                                          <a href="#"><img src="files/images/credit-card.jpeg" alt=""></a>
+                                        </div>
+                                        <div class="message__text">
+                                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo blanditiis quisquam ducimus quis, fugiat reprehenderit consequatur hic cum sit! Nesciunt, magnam. Dignissimos iure vitae nobis ad voluptas odio itaque vel.
+                                        </div>
+                                      </div>
+                                      <div class="message__date">
+                                        06/01/2019 12:47 pm
+                                      </div>
+                                    </div>
+                                    <div class="message">
+                                      <div class="message__box">
+                                        <div class="message__owner">
+                                          <a href="#"><img src="files/images/cashu.png" alt=""></a>
+                                        </div>
+                                        <div class="message__text">
+                                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo blanditiis quisquam ducimus quis, fugiat reprehenderit consequatur hic cum sit! Nesciunt, magnam. Dignissimos iure vitae nobis ad voluptas odio itaque vel.
+                                        </div>
+                                      </div>
+                                      <div class="message__date">
+                                        06/01/2019 12:47 pm
+                                      </div>
+                                    </div>
+                                    <div class="message message--in">
+                                      <div class="message__box">
+                                        <div class="message__owner">
+                                          <a href="#"><img src="files/images/credit-card.jpeg" alt=""></a>
+                                        </div>
+                                        <div class="message__text">
+                                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo blanditiis quisquam ducimus quis, fugiat reprehenderit consequatur hic cum sit! Nesciunt, magnam. Dignissimos iure vitae nobis ad voluptas odio itaque vel.
+                                        </div>
+                                      </div>
+                                      <div class="message__date">
+                                        06/01/2019 12:47 pm
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <form action="#">
+                                    <div class="message-form">
+                                      <textarea class="message-form__input" name="" id="" rows="4"></textarea>
+                                      <input class="message-form__button" type="submit" value="send">
+                                    </div>
+                                  </form>
+                                </div>
+                                <div class="switcher__box">
+                                  <div class="messages">
+                                    <div class="message">
+                                      <div class="message__box">
+                                        <div class="message__owner">
+                                          <a href="#"><img src="files/images/cashu.png" alt=""></a>
+                                        </div>
+                                        <div class="message__text">
+                                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo blanditiis quisquam ducimus quis, fugiat reprehenderit consequatur hic cum sit! Nesciunt, magnam. Dignissimos iure vitae nobis ad voluptas odio itaque vel.
+                                        </div>
+                                      </div>
+                                      <div class="message__date">
+                                        06/01/2019 12:47 pm
+                                      </div>
+                                    </div>
+                                    <div class="message message--in">
+                                      <div class="message__box">
+                                        <div class="message__owner">
+                                          <a href="#"><img src="files/images/paypal.png" alt=""></a>
+                                        </div>
+                                        <div class="message__text">
+                                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo blanditiis quisquam ducimus quis, fugiat reprehenderit consequatur hic cum sit! Nesciunt, magnam. Dignissimos iure vitae nobis ad voluptas odio itaque vel.
+                                        </div>
+                                      </div>
+                                      <div class="message__date">
+                                        06/01/2019 12:47 pm
+                                      </div>
+                                    </div>
+                                    <div class="message">
+                                      <div class="message__box">
+                                        <div class="message__owner">
+                                          <a href="#"><img src="files/images/cashu.png" alt=""></a>
+                                        </div>
+                                        <div class="message__text">
+                                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo blanditiis quisquam ducimus quis, fugiat reprehenderit consequatur hic cum sit! Nesciunt, magnam. Dignissimos iure vitae nobis ad voluptas odio itaque vel.
+                                        </div>
+                                      </div>
+                                      <div class="message__date">
+                                        06/01/2019 12:47 pm
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <form action="#">
+                                    <div class="message-form">
+                                      <textarea class="message-form__input" name="" id="" rows="4"></textarea>
+                                      <input class="message-form__button" type="submit" value="send">
+                                    </div>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </section>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- / SECTION MAIN -->
+    <!-- SECTION FOOTER -->
+    <footer>
+      <section class="layout">
+        <section class="section theme-solid" id="section--footer">
+          <section class="section__container">
+            <section class="box">
+              <div class="component--footer-items">
+                <div class="footer__item">
+                  <div class="component--links-lists">
+                    <div class="links__list">
+                      <div class="list__title">
+                        contact
+                      </div>
+                      <div class="list__links">
+                        <ul>
+                          <li><a href="#"><div class="list__icon"><i class="fas fa-envelope"></i></div> hi@gitzone.com</a></li>
+                          <li><div class="list__icon"><i class="fas fa-phone"></i></div> +00 1234 123456</li>
+                          <li><div class="list__icon"><i class="fas fa-mobile"></i></div> +00 1234 123456</li>
+                          <li><div class="list__icon"><i class="fas fa-map-marker-alt"></i></div> no 200 joseob, canada</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="box">
+              <div class="component--footer-items">
+                <div class="footer__item">
+                  <div class="component--links-lists">
+                    <div class="links__list">
+                      <div class="list__title">
+                        gitzone
+                      </div>
+                      <div class="list__links">
+                        <ul>
+                          <li><a href="#">how it works</a></li>
+                          <li><a href="#">products</a></li>
+                          <li><a href="#">subscribtions</a></li>
+                          <li><a href="#">news</a></li>
+                          <li><a href="contect-us.html">contact us</a></li>
+                          <li><a href="#">help center</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer__item">
+                  <div class="component--links-lists">
+                    <div class="links__list">
+                      <div class="list__title">
+                        support
+                      </div>
+                      <div class="list__links">
+                        <ul>
+                          <li><a href="#">documentation</a></li>
+                          <li><a href="#">forums</a></li>
+                          <li><a href="#">help center</a></li>
+                          <li><a href="#">portfolio</a></li>
+                          <li><a href="#">trade services</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer__item">
+                  <div class="component--links-lists">
+                    <div class="links__list">
+                      <div class="list__title">
+                        social metworks
+                      </div>
+                      <div class="list__links">
+                        <ul>
+                          <li><a href="#">click and get started in seconds</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="links__list">
+                      <div class="list__links">
+                        <li><a href="#"><img class="list__image" src="files/images/get-it-on-google-play.png" alt=""></a></li>
+                        <li><a href="#"><img class="list__image" src="files/images/download-on-the-app-store.png" alt=""></a></li>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+        </section>
+        <section class="section theme-primary" id="section--bottom-bar">
+          <section class="section__container">
+            <section class="box">
+              <div class="component--social rounded">
+                <ul>
+                  <li><a href="#"><div class="social__icon"><i class="fab fa-facebook-f"></i></div></a></li>
+                  <li><a href="#"><div class="social__icon"><i class="fab fa-linkedin-in"></i></div></a></li>
+                  <li><a href="#"><div class="social__icon"><i class="fab fa-google-plus-g"></i></div></a></li>
+                  <li><a href="#"><div class="social__icon"><i class="fab fa-pinterest-p"></i></div></a></li>
+                  <li><a href="#"><div class="social__icon"><i class="fab fa-instagram"></i></div></a></li>
+                  <li><a href="#"><div class="social__icon"><i class="fab fa-twitter"></i></div></a></li>
+                  <li><a href="#"><div class="social__icon"><i class="fab fa-youtube"></i></div></a></li>
+                </ul>
+              </div>
+            </section>
+            <section class="box">
+                copyrights 2018
+            </section>
+          </section>
+        </section>
+      </section>
+    </footer>
+    <!-- / SECTION FOOTER -->
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/gitzone.js"></script>
+    <!-- / SCRIPTS -->
+    <!-- PROFILE SCRIPTS -->
+    <script src="assets/js/plugin.select.js"></script>
+    <script>
+      new Select().init();
+    </script>
+    <script>
+      document.querySelectorAll('.order__steps').forEach(element => {
+        activeAllTil(element.querySelectorAll('.order__step'), element.querySelector('.order__step.active'));
+      });
+    </script>
+    <script src="assets/js/plugin.switcher.js"></script>
+    <script>
+      document.querySelectorAll('.component--switcher').forEach(element => {
+        new Switcher({selector: element}).init();
+      });
+    </script>
+    <script>
+      document.querySelectorAll('.exporter').forEach(element => {
+        activeAllTil(element.querySelectorAll('.exporter__rating__star'), element.querySelector('.exporter__rating__star.active'));
+      });
+    </script>
+    <script src="assets/js/plugin.world-map.js"></script>
+    <script>
+        document.querySelectorAll('.component--world-map').forEach(element => {
+          new WorldMap({selector: element}).init();
+        });
+    </script>
+    <!-- / PROFILE SCRIPTS -->
+  </body>
+</html>
